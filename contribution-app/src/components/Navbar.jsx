@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import "../components/Navbar.css"
+
 
 const Navbar = () => {
   return (
@@ -11,6 +13,19 @@ const Navbar = () => {
             {"HACKTOBERFEST 2K21"}
           </span>
         </div>
+
+        <div class="bg-white shadow p-4 flex search_bar">
+          <span class="w-auto flex justify-end items-center text-gray-500 p-2">
+            <i class="material-icons text-3xl"></i>
+          </span>
+          <input class="w-full rounded p-2" type="text" placeholder="Hacktoberfest" />
+          <button class="bg-red-400 hover:bg-red-300 rounded text-white p-2 pl-4 pr-4">
+            <p class="font-semibold text-xs">Search</p>
+          </button>
+        </div>
+
+
+
         <nav className="md:ml-auto flex flex-wrap justify-center items-center text-lg ">
           <a
             exact
