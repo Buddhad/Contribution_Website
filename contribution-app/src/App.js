@@ -7,10 +7,7 @@ function App() {
   return <div>
     <Navbar />;
     <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
+
 
 
 

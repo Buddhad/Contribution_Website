@@ -1,17 +1,30 @@
 import React from 'react'
+import { data } from "../data/data"
 
 function Card() {
+    const Data = data;
+
     return (
-        <div>
+        <div class="container mx-auto py-12 px-8">
+            <div class="issue-grid">
 
 
-            <div class="container mx-auto py-12 px-8">
-                <div class="issue-grid">
-                    <div title="Rewrite signal_messenger unittest tests to pytest style test functions" class="border border-gray-200 p-4 shadow-sm"><a target="_blank" href="https://github.com/home-assistant/core/issues/40892"><h2 class="text-lg font-semibold mb-2">Rewrite signal_messenger unittest tests to pytest style test functions</h2></a> <a target="_blank" href="https://github.com/home-assistant/core"><h3 class="text-sm text-teal-600 hover:text-hacktoberfest-red font-medium mb-4">home-assistant/core</h3></a> <p class="text-sm text-gray-700">5 comments</p></div>
-                </div>
+                {Data.map((data) => {
+                    return (
+
+                        <div class="border border-gray-200 p-4 shadow-sm">
+                            <a target="_blank" href=" "><h2 class="text-lg font-semibold mb-2">{data.title}</h2>
+                            </a>
+                            <a target="_blank" href=" "><h3 class="text-sm text-teal-600 hover:text-hacktoberfest-red font-medium mb-4">{data.link}}</h3></a>
+                            <p class="text-sm text-gray-700">{data.comments} comments</p>
+                        </div>
+                    )
+                })}
+
             </div>
         </div>
     )
 }
+
 
 export default Card
