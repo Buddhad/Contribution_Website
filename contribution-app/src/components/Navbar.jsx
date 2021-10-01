@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="text-gray-400 bg-green-300 text-black body-font">
+    <header className="text-gray-400 bg-red-400 text-black body-font">
       <div className="w-full flex flex-wrap p-3 flex-col md:flex-row items-center">
         <div className="flex title-font font-medium items-center  text-white mb-4 md:mb-0">
           <span className="ml-3 cursor-default text-2xl text-black">
