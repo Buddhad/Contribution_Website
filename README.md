@@ -1,17 +1,17 @@
-# Contribution_Website
+# Contribution_Website 🌟
 Contribution Website for all the Hackoberfest21 Participant
 
 ## Installation & Participation
 
-Fork this repository
+Step 1-Fork this repository
 
-clone it to your local machiene
+Step 2-Clone it to your local machiene
 ```bash
 git clone https://github.com/Buddhad/Contribution_Website.git
 ```
 
-make changes to the repository!
+Step 3-make changes to the repository!
 
-commit and create a PR
+step 4-Commit and create a Pull Request
 
-## Let's have fun together during Hacktoberfest21
+## Let's have fun together during Hacktoberfest21 🖖
