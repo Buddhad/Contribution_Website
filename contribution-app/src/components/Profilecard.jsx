@@ -88,7 +88,7 @@ const callouts = [
     description: "Trying to gain knowledge",
     imageSrc: "https://avatars.githubusercontent.com/u/74447472?v=4",
     imageAlt: "Arti",
-    href: "#",
+    href: "https://github.com/artiyadav28",
   }
 ];
 
