@@ -83,6 +83,13 @@ const callouts = [
     imageAlt: "Pikachu",
     href: "https://github.com/P-riyanka-prasad",
   },
+    {
+    name: "Arti",
+    description: "Trying to gain knowledge",
+    imageSrc: "https://avatars.githubusercontent.com/u/74447472?v=4",
+    imageAlt: "Arti",
+    href: "#",
+  }
 ];
 
 export default function Example() {
