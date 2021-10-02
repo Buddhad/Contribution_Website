@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import "../components/Navbar.css"
+import "../components/Navbar.css";
+import {Link} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -9,9 +10,11 @@ const Navbar = () => {
     <header className="text-gray-400 bg-green-300 text-black body-font">
       <div className="w-full flex flex-wrap p-3 flex-col md:flex-row items-center">
         <div className="flex title-font font-medium items-center  text-white mb-4 md:mb-0">
+          <Link to='/'>
           <span className="ml-3 cursor-default text-2xl text-black">
             {"HACKTOBERFEST 2K21"}
           </span>
+          </Link>
         </div>
 
         <div class="bg-white shadow p-4 flex search_bar">
@@ -45,6 +48,9 @@ const Navbar = () => {
           >
             DASHBOARD
           </a>
+          <Link to="/about" className="text-black">
+            CONTACT US
+          </Link>
           <a
             href="https://github.com/Buddhad/Contribution_Website"
             target="_blank"
@@ -52,6 +58,7 @@ const Navbar = () => {
           >
             <FaGithub />
           </a>
+         
         </nav>
       </div>
     </header>
