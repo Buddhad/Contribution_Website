@@ -4,6 +4,7 @@ import Content from "./components/Content";
 import { Route } from "react-router";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Profilecard from "./components/Profilecard";
 function App() {
   return <div>
     <Navbar />
@@ -14,7 +15,7 @@ function App() {
       <Contact />
     </Route>
     <Footer/>
-
+    <Profilecard/>
   </div>
 }
 
