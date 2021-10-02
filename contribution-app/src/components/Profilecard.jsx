@@ -78,18 +78,27 @@ const callouts = [
   },
   {
     name: "Priyanka Prasad",
-    description: "Tech Enthusiast | BCA 2019-22 | GPCSSI 2020 | Postman Student Leader",
+    description:
+      "Tech Enthusiast | BCA 2019-22 | GPCSSI 2020 | Postman Student Leader",
     imageSrc: "https://avatars.githubusercontent.com/u/59612128?v=4",
     imageAlt: "Pikachu",
     href: "https://github.com/P-riyanka-prasad",
   },
-    {
+  {
     name: "Arti",
     description: "Trying to gain knowledge",
     imageSrc: "https://avatars.githubusercontent.com/u/74447472?v=4",
     imageAlt: "Arti",
     href: "https://github.com/artiyadav28",
-  }
+  },
+  {
+    name: "José Camacho",
+    description: "👨‍💻 Junior frontend developer 👨‍💻",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/57728112?s=400&u=b5e92180e761a114d7d78546e8c1546fa538c5d1&v=4",
+    imageAlt: "José Camacho",
+    href: "https://github.com/JDcamacho13",
+  },
 ];
 
 export default function Example() {
