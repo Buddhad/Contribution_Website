@@ -91,14 +91,7 @@ const callouts = [
     imageAlt: "Arti",
     href: "https://github.com/artiyadav28",
   },
-  {
-    name: "José Camacho",
-    description: "👨‍💻 Junior frontend developer 👨‍💻",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/57728112?s=400&u=b5e92180e761a114d7d78546e8c1546fa538c5d1&v=4",
-    imageAlt: "José Camacho",
-    href: "https://github.com/JDcamacho13",
-  },
+
 ];
 
 export default function Example() {
@@ -122,7 +115,7 @@ export default function Example() {
                   />
                 </div>
                 <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href}>
+                  <a href={callout.href} target="_blank" rel="noreferrer">
                     <span className="absolute inset-0" />
                     <div className="contributor">{callout.name}</div>
                   </a>
