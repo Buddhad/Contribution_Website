@@ -91,12 +91,19 @@ const callouts = [
     imageAlt: "Arti",
     href: "https://github.com/artiyadav28",
   },
-{
+  {
     name: "José Camacho",
     description: "Junior Frontend Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/57728112?v=4",
     imageAlt: "Jose Camacho",
     href: "https://github.com/JDcamacho13",
+  },
+  {
+    name: "Juan Gonzalez",
+    description: "Learning Express and React!",
+    imageSrc: "https://avatars.githubusercontent.com/u/75293520?v=4",
+    imageAlt: "Juan Gonzalez",
+    href: "https://github.com/Juan-Gon03",
   },
 ];
 
