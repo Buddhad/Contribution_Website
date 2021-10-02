@@ -69,6 +69,13 @@ const callouts = [
     imageAlt: "Piyush",
     href: "#",
   },
+  {
+    name: "Deepak_070",
+    description: "contributing from github no need of git",
+    imageSrc: "https://avatars.githubusercontent.com/u/56753916?v=4",
+    imageAlt: "Deepak",
+    href: "#",
+  },
 ];
 
 export default function Example() {
