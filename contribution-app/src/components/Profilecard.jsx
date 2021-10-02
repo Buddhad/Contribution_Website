@@ -76,6 +76,13 @@ const callouts = [
     imageAlt: "Deepak",
     href: "https://github.com/deepsingh9868",
   },
+  {
+    name: "Priyanka Prasad",
+    description: "Tech Enthusiast | BCA 2019-22 | GPCSSI 2020 | Postman Student Leader",
+    imageSrc: "https://avatars.githubusercontent.com/u/59612128?v=4",
+    imageAlt: "Pikachu",
+    href: "https://github.com/P-riyanka-prasad",
+  },
 ];
 
 export default function Example() {
