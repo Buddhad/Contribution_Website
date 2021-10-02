@@ -108,6 +108,11 @@ The **code** is this repo is licensed under the MIT license. Feel free to use an
 
 <br>
 
+# ✨ Contributors
+
+<a href="https://github.com/Buddhad/Contribution_Website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Buddhad/Contribution_Website" />
+</a>
 <div align="center">
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
  <img src="https://forthebadge.com/images/badges/thats-how-they-get-you.svg" alt="how">
