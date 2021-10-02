@@ -30,7 +30,7 @@ const callouts = [
     imageSrc:
       "https://avatars.githubusercontent.com/u/84906860?s=400&u=21561b09e00ae5dc55e86129c9f72adbae2df3bd&v=4",
     imageAlt: "Viren",
-    href: "#",
+    href: "https://github.com/viren76",
   },
   {
     name: "Stillwater",
@@ -38,7 +38,7 @@ const callouts = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/887721411781754930/893875151299559494/IMG_20210914_141959.jpg",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    href: "https://github.com/ST1LLWATER",
   },
   {
     name: "Divash",
@@ -46,35 +46,35 @@ const callouts = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/860566136806703154/893875712308703302/Screenshot_1277.png",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    href: "https://github.com/Divxsh",
   },
   {
-    name: "Cypher",
+    name: "Sugam Agrawal",
     description: "No Backlogs ;)",
     imageSrc: "https://avatars.githubusercontent.com/u/71265266?v=4",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "#",
+    href: "https://github.com/Sugam50",
   },
   {
     name: "Dhruv",
     description: "Sharing tools, Tips and Self taught Knowledge",
     imageSrc: "https://avatars.githubusercontent.com/u/49398471?v=4",
     imageAlt: "acedesyne",
-    href: "#",
+    href: "https://github.com/acedesyne",
   },
   {
     name: "Piyush",
     description: "Passionate about web development.",
     imageSrc: "https://avatars.githubusercontent.com/u/69067256?v=4",
     imageAlt: "Piyush",
-    href: "#",
+    href: "https://github.com/PiyushNadoda",
   },
   {
     name: "Deepak_070",
     description: "contributing from github no need of git",
     imageSrc: "https://avatars.githubusercontent.com/u/56753916?v=4",
     imageAlt: "Deepak",
-    href: "#",
+    href: "https://github.com/deepsingh9868",
   },
 ];
 
