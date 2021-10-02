@@ -78,18 +78,19 @@ const callouts = [
   },
   {
     name: "Priyanka Prasad",
-    description: "Tech Enthusiast | BCA 2019-22 | GPCSSI 2020 | Postman Student Leader",
+    description:
+      "Tech Enthusiast | BCA 2019-22 | GPCSSI 2020 | Postman Student Leader",
     imageSrc: "https://avatars.githubusercontent.com/u/59612128?v=4",
     imageAlt: "Pikachu",
     href: "https://github.com/P-riyanka-prasad",
   },
-    {
+  {
     name: "Arti",
     description: "Trying to gain knowledge",
     imageSrc: "https://avatars.githubusercontent.com/u/74447472?v=4",
     imageAlt: "Arti",
     href: "https://github.com/artiyadav28",
-  }
+  },
 ];
 
 export default function Example() {
@@ -113,7 +114,7 @@ export default function Example() {
                   />
                 </div>
                 <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href}>
+                  <a href={callout.href} target="_blank" rel="noreferrer">
                     <span className="absolute inset-0" />
                     <div className="contributor">{callout.name}</div>
                   </a>
