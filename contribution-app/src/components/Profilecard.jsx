@@ -21,7 +21,7 @@ const callouts = [
       "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coding👨‍💻",
     imageSrc: "https://avatars.githubusercontent.com/u/71445997?v=4",
     imageAlt: "Buddhadeb Chhetri",
-    href: "#",
+    href: "https://github.com/Buddhad",
   },
   {
     name: "Viren Shewaramani",
