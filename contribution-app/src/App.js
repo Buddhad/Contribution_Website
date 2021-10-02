@@ -14,8 +14,8 @@ function App() {
     <Route path='/about'>
       <Contact />
     </Route>
-    <Footer/>
     <Profilecard/>
+    <Footer/>
   </div>
 }
 
