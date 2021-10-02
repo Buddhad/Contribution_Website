@@ -5,3 +5,18 @@
      /* width: 30vw; */
      height: 4em;
 }
+.hamburger{
+    display: none;
+}
+.close{
+    display: none;
+}
+@media screen and (min-width:300px) and (max-width:1025px) {
+    .hamburger{
+        display:block;
+    }  
+    .close{
+        display: block;
+        stroke-width: 5px;
+    }
+}
