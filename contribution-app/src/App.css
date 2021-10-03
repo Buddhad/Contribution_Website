@@ -1,13 +1,25 @@
-.contributor{
-    font-size: 20px;
-    font-weight:bold;
-    margin-bottom: 10px;
+.contributor {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.borderRad{
-    border-radius: 50%;
+.borderRad {
+  border-radius: 50%;
 }
-.app{
-    display: flex;
-    flex-direction: column;
-    
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: auto;
+  flex-direction: column;
+  text-align: center;
+}
+.splash img {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
