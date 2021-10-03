@@ -106,11 +106,11 @@ const callouts = [
     href: "https://github.com/JDcamacho13",
   },
   {
-    name: "Soundarya",
-    description: "Software Developer | Content Creator",
-    imageSrc: "https://soundaryakhanapur.github.io/Portfolio/static/media/home_anime.b75630b7.jpg",
-    imageAlt: "Soundarya",
-    href: "https://github.com/SoundaryaKhanapur",
+    name: "Juan Gonzalez",
+    description: "Learning Express and React!",
+    imageSrc: "https://avatars.githubusercontent.com/u/75293520?v=4",
+    imageAlt: "Juan Gonzalez",
+    href: "https://github.com/Juan-Gon03",
   },
 ];
 
