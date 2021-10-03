@@ -50,10 +50,17 @@ const callouts = [
   },
   {
     name: "Sugam Agrawal",
-    description: "No Backlogs ;)",
+    description: "Frontend Developer || Competitive Programmer || DSA Enthusiast || Hacker",
     imageSrc: "https://avatars.githubusercontent.com/u/71265266?v=4",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "https://github.com/Sugam50",
+  },
+  {
+    name: "Ridhima Aggrawal",
+    description: "Full Stack Developer",
+    imageSrc: "https://cdn.discordapp.com/attachments/888474298895958026/893895127951626250/Picture.jpg",
+    imageAlt: "Ridz",
+    href: "https://github.com/ridz0326",
   },
   {
     name: "Dhruv",
