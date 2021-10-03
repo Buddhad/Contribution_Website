@@ -1,3 +1,13 @@
+.profile-card > div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.profile-card > div > img{
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+}
 .profile-card:hover{
     box-shadow: -1px 1px 22px 1px rgba(198, 199, 201, 0.5);
     border-radius: 15px;

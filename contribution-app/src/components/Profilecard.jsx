@@ -114,7 +114,7 @@ export default function Example() {
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative py-6 profile-card">
-                <div className="relative w-48 h-48 bg-white rounded-full overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
+                <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
                   <img
                     style={{ objectFit: "contain" }}
                     src={callout.imageSrc}

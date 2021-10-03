@@ -115,7 +115,7 @@ const Navbar = () => {
 						activeClassName='active_link'
 						target='_blank'
 						href='https://hacktoberfest.digitalocean.com/'
-						className=' btn btn-ghost btn-sm rounded-btn'
+						className='nav-links btn btn-sm rounded-btn'
 					>
 						OFFICIAL WEBSITE
 					</a>
@@ -124,11 +124,11 @@ const Navbar = () => {
 						activeClassName='active_link'
 						target='_blank'
 						href='https://hacktoberfest.digitalocean.com/profile'
-						className='btn btn-ghost btn-sm rounded-btn'
+						className='nav-links btn btn-sm rounded-btn'
 					>
 						DASHBOARD
 					</a>
-					<a className='btn btn-ghost btn-sm rounded-btn'>
+					<a className='nav-links btn btn-sm rounded-btn'>
 						<Link to='/about'>CONTACT US</Link>
 					</a>
 				</div>
