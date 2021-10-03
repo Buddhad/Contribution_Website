@@ -4,7 +4,7 @@ import Profilecard from "./Profilecard";
 
 const Content=()=>{
     return(<>
-        <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+        <div style={{display:"flex",justifyContent:"center",alignItems:"center"}} className="dark:bg-black">
             <img style={{ width: "55%", marginTop: 6 + "rem",height:"50%"}} className="p-5" src={logo} alt="logo"/>
         </div>
     <Profilecard/>

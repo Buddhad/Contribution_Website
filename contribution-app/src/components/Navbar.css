@@ -16,6 +16,9 @@
     position: relative;
     margin: 0 1em;
 }
+.btn {
+    border-color: transparent;
+}
 .btn:hover{
     background: none;
     border-color: transparent;
