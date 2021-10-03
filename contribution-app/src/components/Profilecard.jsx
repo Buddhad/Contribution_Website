@@ -139,7 +139,7 @@ const callouts = [
 
 export default function Example() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 mb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900">
