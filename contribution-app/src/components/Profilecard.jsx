@@ -135,6 +135,13 @@ const callouts = [
     imageAlt: "Chetan Chandel",
     href: "https://github.com/chetanchandel31",
   },
+  {
+    name: "Samyak Jain",
+    description: "Full Stack Web dev | Beginner in Open Source",
+    imageSrc: "https://avatars.githubusercontent.com/u/31723176?s=400&u=9c1a4860915456e75ecb8d42d80210d5b7b9bc79&v=4",
+    imageAlt: "Samyak Jain",
+    href: "https://github.com/SamyakJain2020",
+  },
 ];
 
 export default function Example() {
@@ -148,7 +155,7 @@ export default function Example() {
 
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
             {callouts.map((callout) => (
-              <div key={callout.name} className="group relative py-6 profile-card">
+              <div key={callout.name} className="group relative py-6 profile-card text-center">
                 <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
                   <img
                     style={{ objectFit: "contain" }}
