@@ -120,12 +120,20 @@ const callouts = [
     href: "https://github.com/SoundaryaKhanapur",
   },
   {
+    name: "Mei Xin",
+    description: "Beginner in Open Source",
+    imageSrc: "https://avatars.githubusercontent.com/u/65379600?s=400&u=b243ed86e37a881a34acee4b9ebf5111a82ca5d8&v=4",
+    imageAlt: "Mei Xin",
+    href: "https://github.com/meixinchoy",
+},
+  
+{ chetan
     name: "Chetan",
     description: "Front-end dev",
     imageSrc: "https://avatars.githubusercontent.com/u/70325561?v=4",
     imageAlt: "Chetan Chandel",
     href: "https://github.com/chetanchandel31",
-  }
+},
 ];
 
 export default function Example() {
