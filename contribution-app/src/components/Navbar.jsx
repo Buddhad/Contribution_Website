@@ -105,7 +105,7 @@ const Navbar = () => {
 			<div
 				className={
 					hamburger
-						? "block absolute -bottom-24 bg-neutral left-0 w-full "
+						? "block absolute -bottom-28 bg-neutral left-0 w-full "
 						: "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
 				}
 			>
@@ -129,7 +129,11 @@ const Navbar = () => {
 						DASHBOARD
 					</a>
 					<a className='nav-links btn btn-sm rounded-btn'>
-						<Link to='/about'>CONTACT US</Link>
+						<Link to='/about'>ABOUT</Link>
+					</a>
+					<a className='nav-links btn btn-sm rounded-btn'>
+						<Link to='/contact'>CONTACT US</Link>
+
 					</a>
 				</div>
 			</div>

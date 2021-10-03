@@ -52,10 +52,17 @@ const callouts = [
   },
   {
     name: "Sugam Agrawal",
-    description: "No Backlogs ;)",
+    description: "Frontend Developer || Competitive Programmer || DSA Enthusiast || Hacker",
     imageSrc: "https://avatars.githubusercontent.com/u/71265266?v=4",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "https://github.com/Sugam50",
+  },
+  {
+    name: "Ridhima Aggrawal",
+    description: "Full Stack Developer",
+    imageSrc: "https://cdn.discordapp.com/attachments/888474298895958026/893895127951626250/Picture.jpg",
+    imageAlt: "Ridz",
+    href: "https://github.com/ridz0326",
   },
   {
     name: "Dhruv",
@@ -93,13 +100,34 @@ const callouts = [
     imageAlt: "Arti",
     href: "https://github.com/artiyadav28",
   },
-{
+  {
     name: "José Camacho",
     description: "Junior Frontend Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/57728112?v=4",
     imageAlt: "Jose Camacho",
     href: "https://github.com/JDcamacho13",
   },
+  {
+    name: "Juan Gonzalez",
+    description: "Learning Express and React!",
+    imageSrc: "https://avatars.githubusercontent.com/u/75293520?v=4",
+    imageAlt: "Juan Gonzalez",
+    href: "https://github.com/Juan-Gon03",
+  },
+  {
+    name: "Soundarya",
+    description: "Software Developer | Content Creator",
+    imageSrc: "https://soundaryakhanapur.github.io/Portfolio/static/media/home_anime.b75630b7.jpg",
+    imageAlt: "Soundarya",
+    href: "https://github.com/SoundaryaKhanapur",
+  },
+  {
+    name: "Mei Xin",
+    description: "Beginner in Open Source",
+    imageSrc: "https://avatars.githubusercontent.com/u/65379600?s=400&u=b243ed86e37a881a34acee4b9ebf5111a82ca5d8&v=4",
+    imageAlt: "Mei Xin",
+    href: "https://github.com/meixinchoy",
+  }
 ];
 
 export default function Example() {
