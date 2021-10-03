@@ -148,6 +148,13 @@ const callouts = [
     imageSrc:"https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
     imageAlt:"Rohit",
     href:"https://github.com/Rohit5152"
+  },
+  {
+    name: "Pritam",
+    description: "Wannabe a Linux Sysadmin/Pentester",
+    imageSrc: "https://avatars.githubusercontent.com/u/77138355?v=4",
+    imageAlt: "Pritam",
+    href: "https://github.com/pritambera2000",
   }
 ];
 
