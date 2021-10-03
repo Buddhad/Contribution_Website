@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
 import "../components/Navbar.css";
 import { Link } from "react-router-dom";
@@ -8,6 +8,12 @@ import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
 	const [hamburger, setHamburger] = useState(false);
+	useEffect(()=>{
+		document.body.addEventListener("click",()=>{
+			setHamburger(false);
+			
+		})
+	})
 	return (
 		// <header className=' bg-gray-300 text-black body-font'>
 		// 	<div className='w-full flex flex-wrap p-3 flex-col md:flex-row items-center'>
@@ -86,7 +92,8 @@ const Navbar = () => {
 			<div>
 				<div
 					className={hamburger ? "hidden" : "hamburger text-2xl"}
-					onClick={() => {
+					onClick={(e) => {
+						e.stopPropagation();
 						setHamburger(true);
 					}}
 				>
@@ -94,7 +101,8 @@ const Navbar = () => {
 				</div>
 				<div
 					className={hamburger ? "text-2xl close" : " hidden"}
-					onClick={() => {
+					onClick={(e) => {
+						e.stopPropagation();
 						setHamburger(false);
 					}}
 				>

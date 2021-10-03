@@ -1,7 +1,8 @@
 import React from 'react'
 
 function About() {
-    return <section>
+    return <section style={{minHeight: "95vh"}}
+    >
         <div className="container px-5 mx-auto flex flex-wrap">
             <br/>
             <h2 style={{ marginTop: 5 + "rem" }} className="p-10 rounded-md text-3xl font-extrabold text-gray-900">About <span style={{ color: "#e05a00" }}>H</span>acktober <span style={{ color: "#e05a00" }}>F</span>est 2021</h2>

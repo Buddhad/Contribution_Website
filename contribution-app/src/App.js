@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
 function App() {
-  return <div>
+  return <div className="app">
     <Navbar />
     <Route path='/' exact>
       <Content />

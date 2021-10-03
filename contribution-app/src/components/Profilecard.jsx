@@ -20,7 +20,7 @@ const callouts = [
   {
     name: "Buddhadeb Chhetri",
     description:
-      "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coding👨‍💻",
+      "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coder👨‍💻",
     imageSrc: "https://avatars.githubusercontent.com/u/71445997?v=4",
     imageAlt: "Buddhadeb Chhetri",
     href: "https://github.com/Buddhad",
@@ -44,10 +44,10 @@ const callouts = [
   },
   {
     name: "Divash",
-    description: "Daily commute essentials",
+    description: "Full Stack Developer ",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/860566136806703154/893875712308703302/Screenshot_1277.png",
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+      "https://cdn.discordapp.com/attachments/848235529312796713/894205089420566538/Screenshot_2021-10-02-20-55-31-92.jpg",
+    imageAlt: "Divash",
     href: "https://github.com/Divxsh",
   },
   {
@@ -138,7 +138,7 @@ const callouts = [
   {
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
-    imageSrc: "https://avatars.githubusercontent.com/u/31723176?s=400&u=9c1a4860915456e75ecb8d42d80210d5b7b9bc79&v=4",
+    imageSrc: "https://media-exp1.licdn.com/dms/image/C5603AQEcaXcHmpf_ag/profile-displayphoto-shrink_800_800/0/1615116106879?e=1639008000&v=beta&t=HD2k6rEKVkg0wqQhOIC03SrcmaImp7ChsGdKOA_xNrM",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
@@ -156,11 +156,18 @@ const callouts = [
     imageAlt: "Pritam",
     href: "https://github.com/pritambera2000",
   },
+    
+  { name: "Kushagra Arora",
+    description: "Android developer | Machine learning enthusiast | DevOps",
+    imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
+    imageAlt: "Kushagra Arora",
+    href: "https://github.com/kastrahl",
+  },
 ];
 
 export default function Example() {
   return (
-    <div className="bg-gray-100 mb-20">
+    <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900">
