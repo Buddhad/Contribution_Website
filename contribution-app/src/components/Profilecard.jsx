@@ -112,6 +112,13 @@ const callouts = [
     imageAlt: "Juan Gonzalez",
     href: "https://github.com/Juan-Gon03",
   },
+  {
+    name: "Soundarya",
+    description: "Software Developer | Content Creator",
+    imageSrc: "https://soundaryakhanapur.github.io/Portfolio/static/media/home_anime.b75630b7.jpg",
+    imageAlt: "Soundarya",
+    href: "https://github.com/SoundaryaKhanapur",
+  },
 ];
 
 export default function Example() {
