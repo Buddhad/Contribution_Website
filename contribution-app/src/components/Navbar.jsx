@@ -105,7 +105,7 @@ const Navbar = () => {
 			<div
 				className={
 					hamburger
-						? "block absolute -bottom-28 bg-neutral left-0 w-full "
+						? "block absolute top-10 mt-6 pt-1 bg-neutral left-0 w-full "
 						: "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
 				}
 			>

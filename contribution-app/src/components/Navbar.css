@@ -36,7 +36,12 @@
     transform: scaleX(1);
     transform-origin: left;
 }
-@media screen and (min-width:300px) and (max-width:1025px) {
+.navbar{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+@media screen and (min-width:200px) and (max-width:1025px) {
     .hamburger{
         display:block;
     }  
