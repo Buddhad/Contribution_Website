@@ -154,7 +154,14 @@ const callouts = [
     href:"https://github.com/Rohit5152"
   },
   {
-    name: "Kushagra Arora",
+    name: "Pritam",
+    description: "Wannabe a Linux Sysadmin/Pentester",
+    imageSrc: "https://avatars.githubusercontent.com/u/77138355?v=4",
+    imageAlt: "Pritam",
+    href: "https://github.com/pritambera2000",
+  },
+    
+  { name: "Kushagra Arora",
     description: "Android developer | Machine learning enthusiast | DevOps",
     imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
     imageAlt: "Kushagra Arora",
