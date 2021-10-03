@@ -155,7 +155,7 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/77138355?v=4",
     imageAlt: "Pritam",
     href: "https://github.com/pritambera2000",
-  }
+  },
 ];
 
 export default function Example() {
