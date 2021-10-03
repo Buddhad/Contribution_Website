@@ -14,7 +14,7 @@
   }
   ```
 */
-import './Profilecard.css';
+import "./Profilecard.css";
 
 const callouts = [
   {
@@ -52,7 +52,8 @@ const callouts = [
   },
   {
     name: "Sugam Agrawal",
-    description: "Frontend Developer || Competitive Programmer || DSA Enthusiast || Hacker",
+    description:
+      "Frontend Developer || Competitive Programmer || DSA Enthusiast || Hacker",
     imageSrc: "https://avatars.githubusercontent.com/u/71265266?v=4",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "https://github.com/Sugam50",
@@ -60,7 +61,8 @@ const callouts = [
   {
     name: "Ridhima Aggrawal",
     description: "Full Stack Developer",
-    imageSrc: "https://cdn.discordapp.com/attachments/888474298895958026/893895127951626250/Picture.jpg",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/888474298895958026/893895127951626250/Picture.jpg",
     imageAlt: "Ridz",
     href: "https://github.com/ridz0326",
   },
@@ -117,14 +119,16 @@ const callouts = [
   {
     name: "Soundarya",
     description: "Software Developer | Content Creator",
-    imageSrc: "https://soundaryakhanapur.github.io/Portfolio/static/media/home_anime.b75630b7.jpg",
+    imageSrc:
+      "https://soundaryakhanapur.github.io/Portfolio/static/media/home_anime.b75630b7.jpg",
     imageAlt: "Soundarya",
     href: "https://github.com/SoundaryaKhanapur",
   },
   {
     name: "Mei Xin",
     description: "Beginner in Open Source",
-    imageSrc: "https://avatars.githubusercontent.com/u/65379600?s=400&u=b243ed86e37a881a34acee4b9ebf5111a82ca5d8&v=4",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/65379600?s=400&u=b243ed86e37a881a34acee4b9ebf5111a82ca5d8&v=4",
     imageAlt: "Mei Xin",
     href: "https://github.com/meixinchoy",
   },
@@ -150,11 +154,26 @@ const callouts = [
     href:"https://github.com/Rohit5152"
   },
   {
-    name: "Kushagra Arora",
+    name: "Pritam",
+    description: "Wannabe a Linux Sysadmin/Pentester",
+    imageSrc: "https://avatars.githubusercontent.com/u/77138355?v=4",
+    imageAlt: "Pritam",
+    href: "https://github.com/pritambera2000",
+  },
+    
+  { name: "Kushagra Arora",
     description: "Android developer | Machine learning enthusiast | DevOps",
     imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
+  },
+  {
+    name: "N Deepika",
+    description: "Front-End Develpoer",
+    imageSrc:
+      "https://media.discordapp.net/attachments/894227501897875528/894227994430824508/1633270955791.jpg?width=493&height=571",
+    imageAlt: "N Deepika",
+    href: "https://github.com/N-Deepika",
   },
   {
     name: "Aditya Verma",
@@ -163,6 +182,7 @@ const callouts = [
     imageAlt: "Aditya Verma",
     href: "https://github.com/homewardgamer",
   },
+
 ];
 
 export default function Example() {
@@ -176,7 +196,10 @@ export default function Example() {
 
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
             {callouts.map((callout) => (
-              <div key={callout.name} className="group relative py-6 profile-card text-center">
+              <div
+                key={callout.name}
+                className="group relative py-6 profile-card text-center"
+              >
                 <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
                   <img
                     style={{ objectFit: "contain" }}
@@ -186,7 +209,7 @@ export default function Example() {
                   />
                 </div>
                 <h3 className="contributor-name mt-6 text-sm text-gray-500">
-                    <div className="contributor">{callout.name}</div>
+                  <div className="contributor">{callout.name}</div>
                 </h3>
                 <a href={callout.href} target="_blank" rel="noreferrer">
                   <span className="absolute inset-0" />
