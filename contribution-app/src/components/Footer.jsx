@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<div>
 			<footer
-				className='flex flex-col-reverse justify-center items-center md:flex-row md:justify-between p-4 footer bg-neutral text-neutral-content border-t-2 border-gray-300 fixed bottom-0'
+				className='flex flex-col-reverse justify-center items-center md:flex-row md:justify-between p-4 footer bg-neutral text-neutral-content border-t-2 border-gray-300'
 			>
 				<div className='items-center grid-flow-col'>
 					<svg

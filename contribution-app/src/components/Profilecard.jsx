@@ -20,7 +20,7 @@ const callouts = [
   {
     name: "Buddhadeb Chhetri",
     description:
-      "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coding👨‍💻",
+      "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coder👨‍💻",
     imageSrc: "https://avatars.githubusercontent.com/u/71445997?v=4",
     imageAlt: "Buddhadeb Chhetri",
     href: "https://github.com/Buddhad",
@@ -44,10 +44,10 @@ const callouts = [
   },
   {
     name: "Divash",
-    description: "Daily commute essentials",
+    description: "Full Stack Developer ",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/860566136806703154/893875712308703302/Screenshot_1277.png",
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
+      "https://cdn.discordapp.com/attachments/848235529312796713/894205089420566538/Screenshot_2021-10-02-20-55-31-92.jpg",
+    imageAlt: "Divash",
     href: "https://github.com/Divxsh",
   },
   {
@@ -153,7 +153,7 @@ const callouts = [
 
 export default function Example() {
   return (
-    <div className="bg-gray-100 mb-20">
+    <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900">

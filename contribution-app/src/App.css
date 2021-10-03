@@ -6,3 +6,8 @@
 .borderRad{
     border-radius: 50%;
 }
+.app{
+    display: flex;
+    flex-direction: column;
+    
+}
