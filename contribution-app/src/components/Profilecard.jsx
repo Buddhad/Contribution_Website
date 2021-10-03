@@ -156,6 +156,13 @@ const callouts = [
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
   },
+  {
+    name: "Aditya Verma",
+    description: "A Full Stack Web Developer!",
+    imageSrc: "https://avatars.githubusercontent.com/u/73935799?v=4",
+    imageAlt: "Aditya Verma",
+    href: "https://github.com/homewardgamer",
+  },
 ];
 
 export default function Example() {
