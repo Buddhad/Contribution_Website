@@ -14,6 +14,8 @@
   }
   ```
 */
+import './Profilecard.css';
+
 const callouts = [
   {
     name: "Buddhadeb Chhetri",
@@ -139,8 +141,8 @@ export default function Example() {
 
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
             {callouts.map((callout) => (
-              <div key={callout.name} className="group relative py-6">
-                <div className="relative w-48 h-48 bg-white rounded-full overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
+              <div key={callout.name} className="group relative py-6 profile-card">
+                <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
                   <img
                     style={{ objectFit: "contain" }}
                     src={callout.imageSrc}
@@ -148,12 +150,12 @@ export default function Example() {
                     className="w-full h-full object-center object-cover"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href} target="_blank" rel="noreferrer">
-                    <span className="absolute inset-0" />
+                <h3 className="contributor-name mt-6 text-sm text-gray-500">
                     <div className="contributor">{callout.name}</div>
-                  </a>
                 </h3>
+                <a href={callout.href} target="_blank" rel="noreferrer">
+                  <span className="absolute inset-0" />
+                </a>
                 <p className="text-base font-semibold text-gray-900 ">
                   {callout.description}
                 </p>
