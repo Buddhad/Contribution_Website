@@ -167,14 +167,22 @@ const callouts = [
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
   },
-   {
+  {
     name: "N Deepika",
     description: "Front-End Develpoer",
     imageSrc:
       "https://media.discordapp.net/attachments/894227501897875528/894227994430824508/1633270955791.jpg?width=493&height=571",
     imageAlt: "N Deepika",
     href: "https://github.com/N-Deepika",
-   },
+  },
+  {
+    name: "Aditya Verma",
+    description: "A Full Stack Web Developer!",
+    imageSrc: "https://avatars.githubusercontent.com/u/73935799?v=4",
+    imageAlt: "Aditya Verma",
+    href: "https://github.com/homewardgamer",
+  },
+
 ];
 
 export default function Example() {
