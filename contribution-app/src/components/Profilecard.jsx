@@ -148,7 +148,14 @@ const callouts = [
     imageSrc:"https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
     imageAlt:"Rohit",
     href:"https://github.com/Rohit5152"
-  }
+  },
+  {
+    name: "Kushagra Arora",
+    description: "Android developer | Machine learning enthusiast | DevOps",
+    imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
+    imageAlt: "Kushagra Arora",
+    href: "https://github.com/kastrahl",
+  },
 ];
 
 export default function Example() {
