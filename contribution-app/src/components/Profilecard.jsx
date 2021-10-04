@@ -195,6 +195,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/52563861?v=4",
     imageAlt: "Anjali",
     href: "https://github.com/anjali-yadav",
+  },
+  {
+    name: "Vikramaditya",
+    description: "Web/IoT Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/66563078?v=4",
+    imageAlt: "Vikramaditya",
+    href: "https://github.com/vikramadityasinghs",
   }
 ];
 
