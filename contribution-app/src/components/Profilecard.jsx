@@ -189,7 +189,13 @@ const callouts = [
     imageAlt: "IqbaL Utomo",
     href: "https://github.com/iqbalutomo",
   },
-
+  {
+    name: "Anjali",
+    description: "Full Stack Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/52563861?v=4",
+    imageAlt: "Anjali",
+    href: "https://github.com/anjali-yadav",
+  }
 ];
 
 export default function Example() {
