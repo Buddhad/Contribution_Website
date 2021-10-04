@@ -5,8 +5,10 @@ import "../components/Navbar.css";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import useDarkMode from "../hook/useDarkMode";
 
 const Navbar = () => {
+	const [colorTheme, setTheme] = useDarkMode();
 	const [hamburger, setHamburger] = useState(false);
 	useEffect(()=>{
 		document.body.addEventListener("click",()=>{
@@ -77,7 +79,7 @@ const Navbar = () => {
 		// 	</div>
 		// </header>
 
-		<div className='navbar mb-2 shadow-lg bg-neutral text-neutral-content relative'>
+		<div className='navbar mb-2 shadow-lg bg-neutral text-neutral-content relative dark:bg-black'>
 			<div className='flex-1 px-2 mx-2'>
 				<Link to='/'>
 					<img
@@ -113,7 +115,7 @@ const Navbar = () => {
 			<div
 				className={
 					hamburger
-						? "block absolute top-10 mt-6 pt-1 bg-neutral left-0 w-full "
+						? "block absolute top-10 mt-6 pt-1 bg-neutral left-0 w-full dark:bg-black"
 						: "flex-none hidden px-2 mx-2 lg:flex responsive-nav"
 				}
 			>
@@ -123,7 +125,7 @@ const Navbar = () => {
 						activeClassName='active_link'
 						target='_blank'
 						href='https://hacktoberfest.digitalocean.com/'
-						className='nav-links btn btn-sm rounded-btn'
+						className='nav-links btn btn-sm rounded-btn dark:bg-black'
 					>
 						OFFICIAL WEBSITE
 					</a>
@@ -132,14 +134,14 @@ const Navbar = () => {
 						activeClassName='active_link'
 						target='_blank'
 						href='https://hacktoberfest.digitalocean.com/profile'
-						className='nav-links btn btn-sm rounded-btn'
+						className='nav-links btn btn-sm rounded-btn dark:bg-black'
 					>
 						DASHBOARD
 					</a>
-					<a className='nav-links btn btn-sm rounded-btn'>
+					<a className='nav-links btn btn-sm rounded-btn dark:bg-black'>
 						<Link to='/about'>ABOUT</Link>
 					</a>
-					<a className='nav-links btn btn-sm rounded-btn'>
+					<a className='nav-links btn btn-sm rounded-btn dark:bg-black'>
 						<Link to='/contact'>CONTACT US</Link>
 
 					</a>
@@ -152,6 +154,16 @@ const Navbar = () => {
 			>
 				<FaGithub />
 			</a>
+			<span onClick={()=> setTheme(colorTheme)} className="cursor-pointer">
+				{colorTheme === "light"? (
+				<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+				</svg>):
+				(<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+				</svg>)
+				}
+			</span>
 		</div>
 	);
 };
