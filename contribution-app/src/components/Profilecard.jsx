@@ -138,7 +138,7 @@ const callouts = [
   {
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
-    imageSrc: "https://avatars.githubusercontent.com/u/31723176?s=400&u=9c1a4860915456e75ecb8d42d80210d5b7b9bc79&v=4",
+    imageSrc: "https://cdn.discordapp.com/attachments/874009467669315655/894640476135755786/1633270287380.png",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
