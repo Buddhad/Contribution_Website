@@ -22,7 +22,7 @@ Contribution Website for all the Hackoberfest21 Participant
 <br>
 
 <div align="center">
-  <img src="https://forthebadge.com/images/badges/for-you.svg" />
+  <img src="https://forthebadge.com/images/badges/for-you.svg">
   <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="html">
   <img src="https://forthebadge.com/images/badges/made-with-markdown.svg" alt="css">
   
