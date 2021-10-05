@@ -209,7 +209,14 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/74191996?v=4",
     imageAlt: "VASAV",
     href: "https://github.com/vasav-prashar",
-  }
+  },
+  {
+    name: "Piyush Bhangale",
+    description: "Backend Guy ✨",
+    imageSrc: "https://avatars.githubusercontent.com/u/18086566?v=4",
+    imageAlt: "Piyush",
+    href: "https://github.com/officialpiyush",
+  },
 ];
 
 export default function Example() {
