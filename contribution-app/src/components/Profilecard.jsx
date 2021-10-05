@@ -202,6 +202,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/66563078?v=4",
     imageAlt: "Vikramaditya",
     href: "https://github.com/vikramadityasinghs",
+  },
+  {
+    name: "Vasav Prashar",
+    description: "GITHUB BEGINEER",
+    imageSrc: "https://avatars.githubusercontent.com/u/74191996?v=4",
+    imageAlt: "VASAV",
+    href: "https://github.com/vasav-prashar",
   }
 ];
 
