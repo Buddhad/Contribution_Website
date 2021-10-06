@@ -225,6 +225,13 @@ const callouts = [
     imageAlt: "Vishal",
     href: "https://github.com/vishalkr058",
   },
+  {
+    name: "Mudit Wadhwa", 
+    description: "Data Structures And Algorithms(Problem Solver) 🖥️||Web Development enthusiast 🔥",
+    imageSrc: "https://avatars.githubusercontent.com/MuditWadhwa",
+    imageAlt: "Mudit",
+    href: "https://github.com/MuditWadhwa",
+  },
 ];
 
 export default function Example() {
@@ -235,8 +242,8 @@ export default function Example() {
 
     <div className=" absolute left-1/3 rounded-full bg-red-400 shadow 
         bg-gradient-to-r from-purple-500 w-1/4">
-        <input type="text" placeholder="🔍Search" className="w-96 relative
-         left-0 opacity-60 h-10 text-purple-900  placeholder-pink-900 rounded-full"
+        <input type="text" placeholder="🔍Search" className=" relative
+         left-0 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
              onChange={(e)=>{setval(e.target.value)}}
          />
         </div>
