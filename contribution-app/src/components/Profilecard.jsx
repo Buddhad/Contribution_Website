@@ -15,7 +15,7 @@
   ```
 */
 import "./Profilecard.css";
-
+import { useState } from "react";
 const callouts = [
   {
     name: "Buddhadeb Chhetri",
@@ -228,8 +228,22 @@ const callouts = [
 ];
 
 export default function Example() {
-  return (
+  const [val, setval] =useState('');
+  return ( 
     <div className="bg-gray-100 dark:bg-black">
+    {/* <SearchBar contributors={callouts}/> */}
+
+    <div className=" absolute left-1/3 rounded-full bg-red-400 shadow 
+        bg-gradient-to-r from-purple-500 w-1/3">
+        <input type="text" placeholder=" Enter name to find contributor" className="w-64 relative
+         left-0 opacity-60 h-10 text-purple-900  placeholder-pink-900 rounded-full"
+             onChange={(e)=>{setval(e.target.value)}}
+         />
+        {/* <span className=" relative left-1/4"><button className="hover:text-white
+         font-bold  rounded-btn h-10" type="submit" onClick={handleclick}>
+        Search</button></span> */}
+        
+        </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900 dark:text-gray-100">
@@ -238,7 +252,8 @@ export default function Example() {
 
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
             {callouts.map((callout) => (
-              <div
+                callout.name.toLowerCase().includes(val.toLowerCase())?(
+                  <div
                 key={callout.name}
                 className="group relative py-6 profile-card text-center"
               >
@@ -260,6 +275,10 @@ export default function Example() {
                   {callout.description}
                 </p>
               </div>
+                ):(
+                  <div></div>
+                )
+              
             ))}
           </div>
         </div>
