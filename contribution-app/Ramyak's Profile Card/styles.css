@@ -1,0 +1,161 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Assigning all the same properties to the body */
+body
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+}
+
+.container
+{
+	width: 30em;
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	border-radius: 1em;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+  height: 84%;
+}
+
+.user-image
+{
+	padding: 3em 0;
+	background-image: linear-gradient(70deg,#61A1DD,#0083FD);
+}
+
+.user-image img
+{
+	width: 7em;
+	height: 7em;
+	border-radius: 50%;
+	box-shadow: 0 0.6em 1.8em ;
+	object-fit: cover;
+}
+
+.content
+{
+	color: #565656;
+	padding: 2.2em;
+}
+
+.name
+{
+	font-size: 1.5em;
+	text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.username
+{
+	font-size: 1em;
+	color: #7c7c7c;
+  margin-bottom: 1em;
+}
+
+.links
+{
+	display: flex;
+	justify-content: center;
+	margin: 1.5em 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #565656;
+	transition: all 0.3s;
+	font-size: 2em;
+	margin-right: 1.2em;
+}
+
+a:last-child
+{
+	margin: 0;
+}
+
+.git 
+{
+  transition: all 0.3s ease-in-out;
+}
+
+.git:hover
+{
+  color:rgb(0, 0, 0);
+}
+
+.fab 
+{
+  transition: all 0.3s;
+}
+
+.fab:hover 
+{
+  transform: scale(1.5);
+}
+
+.linkedin:hover
+{
+	color:rgba(4, 0, 253, 0.842);
+}
+
+.details
+{
+	margin-bottom: 1.8em;
+  text-align: center;
+  padding: 0 2em;
+}
+
+/* CSS for messaging link */
+
+.effect 
+{
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	color: rgb(48, 41, 41);
+	text-transform: capitalize;
+	width: 100%;
+	background-image: linear-gradient(60deg,#0083FD,#61A1DD);
+	font-size: 1.2em;
+	padding: 1em 3em;
+	overflow: hidden;
+}
+
+.effect.effect-4:before 
+{
+	content: "\f2b6";
+	font-family: FontAwesome;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.8em;
+	transform: scale(0, 1);
+}
+
+.effect.effect-4:hover 
+{
+	text-indent: -9999px;
+}
+	
+.effect.effect-4:hover:before 
+{
+  transform: scale(1, 1);
+  text-indent: 0;
+}
