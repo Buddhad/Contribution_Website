@@ -232,6 +232,13 @@ const callouts = [
     imageAlt: "Mudit",
     href: "https://github.com/MuditWadhwa",
   },
+  {
+    name: "Shubham Mehra",
+    description: "Full Stack Developer | Tech Enthusiast",
+    imageSrc: "https://avatars.githubusercontent.com/u/54092258?v=4",
+    imageAlt: "Shubham",
+    href: "https://github.com/shubhammehra4",
+  },
 ];
 
 export default function Example() {
