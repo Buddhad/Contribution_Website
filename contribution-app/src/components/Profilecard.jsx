@@ -239,6 +239,13 @@ const callouts = [
     imageAlt: "Shubham",
     href: "https://github.com/shubhammehra4",
   },
+  {
+    name: "Patricio Díaz",
+    description: "I'm a Freelance Front-End Developer & Content creator.",
+    imageSrc: "https://avatars.githubusercontent.com/u/30910253?v=4",
+    imageAlt: "Patricio Díaz github avatar",
+    href: "https://github.com/patodm",
+  },
 ];
 
 export default function Example() {
