@@ -142,16 +142,17 @@ const callouts = [
   {
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
-    imageSrc: "https://cdn.discordapp.com/attachments/874009467669315655/894640476135755786/1633270287380.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/874009467669315655/894640476135755786/1633270287380.png",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
   {
-    name:"Rohit",
-    description:"Front-End Develpoer",
-    imageSrc:"https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
-    imageAlt:"Rohit",
-    href:"https://github.com/Rohit5152"
+    name: "Rohit",
+    description: "Front-End Develpoer",
+    imageSrc: "https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
+    imageAlt: "Rohit",
+    href: "https://github.com/Rohit5152",
   },
   {
     name: "Pritam",
@@ -160,10 +161,12 @@ const callouts = [
     imageAlt: "Pritam",
     href: "https://github.com/pritambera2000",
   },
-    
-  { name: "Kushagra Arora",
+
+  {
+    name: "Kushagra Arora",
     description: "Android developer | Machine learning enthusiast | DevOps",
-    imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
+    imageSrc:
+      "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
   },
@@ -219,15 +222,17 @@ const callouts = [
   },
 
   {
-    name: "Vishal Kumar", 
-    description: "Software Developer 💻 || Front End enthusiast 🔥 || Photographer 📸 ",
+    name: "Vishal Kumar",
+    description:
+      "Software Developer 💻 || Front End enthusiast 🔥 || Photographer 📸 ",
     imageSrc: "https://avatars.githubusercontent.com/u/22008102?v=4",
     imageAlt: "Vishal",
     href: "https://github.com/vishalkr058",
   },
   {
-    name: "Mudit Wadhwa", 
-    description: "Data Structures And Algorithms(Problem Solver) 🖥️||Web Development enthusiast 🔥",
+    name: "Mudit Wadhwa",
+    description:
+      "Data Structures And Algorithms(Problem Solver) 🖥️||Web Development enthusiast 🔥",
     imageSrc: "https://avatars.githubusercontent.com/MuditWadhwa",
     imageAlt: "Mudit",
     href: "https://github.com/MuditWadhwa",
@@ -246,54 +251,64 @@ const callouts = [
     imageAlt: "Patricio Díaz github avatar",
     href: "https://github.com/patodm",
   },
+  {
+    name: "Sadathulla Shariff",
+    description: "Front-End Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/51914072?s=400&u=18f96b6cf1d4b35f938c0409325bdcc4f7d2d677&v=4",
+    imageAlt: "Sadathulla Shariff",
+    href: "https://github.com/sadathshariff",
+  },
 ];
 
 export default function Example() {
-  const [val, setval] =useState('');
-  return ( 
+  const [val, setval] = useState("");
+  return (
     <div className="bg-gray-100 dark:bg-black">
-    {/* <SearchBar contributors={callouts}/> */}
+      {/* <SearchBar contributors={callouts}/> */}
 
-    <div className="mt-3 mx-auto rounded-full bg-red-400 shadow bg-gradient-to-r from-purple-500 w-1/2 md:w-1/3 lg:w-1/4">
-        <input type="search" placeholder="🔍  Search" className="p-3 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
-             onChange={(e)=>{setval(e.target.value)}}
-         />
-        </div>
+      <div className="mt-3 mx-auto rounded-full bg-red-400 shadow bg-gradient-to-r from-purple-500 w-1/2 md:w-1/3 lg:w-1/4">
+        <input
+          type="search"
+          placeholder="🔍  Search"
+          className="p-3 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
+          onChange={(e) => {
+            setval(e.target.value);
+          }}
+        />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900 dark:text-gray-100">
             Contributors
           </h2>
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
-            {callouts.map((callout) => (
-                callout.name.toLowerCase().includes(val.toLowerCase())?(
-                  <div
-                key={callout.name}
-                className="group relative py-6 profile-card text-center"
-              >
-                <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
-                  <img
-                    style={{ objectFit: "contain" }}
-                    src={callout.imageSrc}
-                    alt={callout.imageAlt}
-                    className="w-full h-full object-center object-cover"
-                  />
+            {callouts.map((callout) =>
+              callout.name.toLowerCase().includes(val.toLowerCase()) ? (
+                <div
+                  key={callout.name}
+                  className="group relative py-6 profile-card text-center"
+                >
+                  <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
+                    <img
+                      style={{ objectFit: "contain" }}
+                      src={callout.imageSrc}
+                      alt={callout.imageAlt}
+                      className="w-full h-full object-center object-cover"
+                    />
+                  </div>
+                  <h3 className="contributor-name mt-6 text-sm text-gray-500 dark:text-gray-100">
+                    <div className="contributor">{callout.name}</div>
+                  </h3>
+                  <a href={callout.href} target="_blank" rel="noreferrer">
+                    <span className="absolute inset-0" />
+                  </a>
+                  <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
+                    {callout.description}
+                  </p>
                 </div>
-                <h3 className="contributor-name mt-6 text-sm text-gray-500 dark:text-gray-100">
-                  <div className="contributor">{callout.name}</div>
-                </h3>
-                <a href={callout.href} target="_blank" rel="noreferrer">
-                  <span className="absolute inset-0" />
-                </a>
-                <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
-                  {callout.description}
-                </p>
-              </div>
-                ):(
-                  null
-                )
-              
-            ))}
+              ) : null
+            )}
           </div>
         </div>
       </div>
