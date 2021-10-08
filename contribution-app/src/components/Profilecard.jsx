@@ -254,10 +254,8 @@ export default function Example() {
     <div className="bg-gray-100 dark:bg-black">
     {/* <SearchBar contributors={callouts}/> */}
 
-    <div className=" absolute left-1/3 rounded-full bg-red-400 shadow 
-        bg-gradient-to-r from-purple-500 w-1/4">
-        <input type="text" placeholder="🔍Search" className=" relative
-         left-0 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
+    <div className="mt-3 mx-auto rounded-full bg-red-400 shadow bg-gradient-to-r from-purple-500 w-1/2 md:w-1/3 lg:w-1/4">
+        <input type="search" placeholder="🔍  Search" className="p-3 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
              onChange={(e)=>{setval(e.target.value)}}
          />
         </div>
@@ -292,7 +290,7 @@ export default function Example() {
                 </p>
               </div>
                 ):(
-                  <div></div>
+                  null
                 )
               
             ))}
