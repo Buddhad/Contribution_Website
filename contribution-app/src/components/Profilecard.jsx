@@ -266,6 +266,13 @@ const callouts = [
     imageAlt: "Faris0520",
     href: "https://github.com/Faris0520",
   },
+  {
+    name: "Somesh Mishra",
+    description: "Front-End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
+    imageAlt: "someshium",
+    href: "https://github.com/someshium"
+  }
 ];
 
 export default function Example() {
