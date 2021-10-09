@@ -266,6 +266,13 @@ const callouts = [
     imageAlt: "Faris0520",
     href: "https://github.com/Faris0520",
   },
+  {
+    name: "Nidble",
+    description: "Curiosity's Tamer",
+    imageSrc: "https://avatars.githubusercontent.com/u/1447119?s=96&v=4",
+    imageAlt: "nidble",
+    href: "https://github.com/nidble",
+  },
 ];
 
 export default function Example() {
