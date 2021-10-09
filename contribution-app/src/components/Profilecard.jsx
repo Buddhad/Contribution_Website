@@ -259,6 +259,14 @@ const callouts = [
     imageAlt: "Sadathulla Shariff",
     href: "https://github.com/sadathshariff",
   },
+  {
+    name: "Eri Kadarisman",
+    description: "Full Stack Developer 💻 | Mobile Developer 📱| Coder👨‍💻",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/52651194?v=4",
+    imageAlt: "Eri Kadarisman",
+    href: "https://github.com/Erikadarisman",
+  },
 ];
 
 export default function Example() {
