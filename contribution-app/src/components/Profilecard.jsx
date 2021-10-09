@@ -259,6 +259,13 @@ const callouts = [
     imageAlt: "Sadathulla Shariff",
     href: "https://github.com/sadathshariff",
   },
+  {
+    name: "Faris Daffa",
+    description: "20% Learn, 80% Practice 🕵️",
+    imageSrc: "https://avatars.githubusercontent.com/u/65797160?v=4",
+    imageAlt: "Faris0520",
+    href: "https://github.com/Faris0520",
+  },
 ];
 
 export default function Example() {
