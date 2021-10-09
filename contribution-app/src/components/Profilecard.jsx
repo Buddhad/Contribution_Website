@@ -273,6 +273,30 @@ const callouts = [
     imageAlt: "nidble",
     href: "https://github.com/nidble",
   },
+  {
+    name: "Somesh Mishra",
+    description: "Front-End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
+    imageAlt: "someshium",
+    href: "https://github.com/someshium"
+  },
+  {
+    name: "Samyak Gajbhiye",
+    description: "Ethical Hacker || CTF Player || UI/UX Designer || Programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
+    imageAlt: "specxybeardo avatar",
+    href: "https://github.com/specxybeardo",
+
+  },
+  {
+    name: "Mital Sapkale",
+    description: "Frontend Developer  || Programmer",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/875062360623185990/896483247318515752/IMG_20210709_184725.jpg",
+    imageAlt: "Mital avatar ",
+    href: "https://github.com/mitalsapkale01",
+  }
 ];
 
 export default function Example() {
