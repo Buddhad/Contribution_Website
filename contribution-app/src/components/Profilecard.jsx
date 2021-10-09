@@ -266,6 +266,14 @@ const callouts = [
     imageAlt: "Faris0520",
     href: "https://github.com/Faris0520",
   },
+  {
+    name: "Samyak Gajbhiye",
+    description: "Ethical Hacker || CTF Player || UI/UX Designer || Programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
+    imageAlt: "specxybeardo avatar",
+    href: "https://github.com/specxybeardo",
+  }
 ];
 
 export default function Example() {
