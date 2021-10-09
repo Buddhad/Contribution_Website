@@ -267,13 +267,21 @@ const callouts = [
     href: "https://github.com/Faris0520",
   },
   {
-    name: "Mohammad Reza",
-    description: "Web Developer",
+    name: "Samyak Gajbhiye",
+    description: "Ethical Hacker || CTF Player || UI/UX Designer || Programmer",
     imageSrc:
-      "https://avatars.githubusercontent.com/u/41227016?v=4",
-    imageAlt: "Mohammad Reza avatar",
-    href: "https://github.com/rza38",
-  }
+      "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
+    imageAlt: "specxybeardo avatar",
+    href: "https://github.com/specxybeardo",
+  },
+{
+  name: "Mohammad Reza",
+  description: "Web Developer",
+  imageSrc:
+    "https://avatars.githubusercontent.com/u/41227016?v=4",
+  imageAlt: "Mohammad Reza avatar",
+  href: "https://github.com/rza38",
+}
 ];
 
 export default function Example() {
