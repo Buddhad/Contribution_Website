@@ -267,11 +267,22 @@ const callouts = [
     href: "https://github.com/Faris0520",
   },
   {
+
     name: "Somesh Mishra",
     description: "Front-End Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
     imageAlt: "someshium",
     href: "https://github.com/someshium"
+  }
+,
+  {
+    name: "Samyak Gajbhiye",
+    description: "Ethical Hacker || CTF Player || UI/UX Designer || Programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
+    imageAlt: "specxybeardo avatar",
+    href: "https://github.com/specxybeardo",
+
   }
 ];
 
