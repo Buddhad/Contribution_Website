@@ -267,6 +267,13 @@ const callouts = [
     href: "https://github.com/Faris0520",
   },
   {
+    name: "Nidble",
+    description: "Curiosity's Tamer",
+    imageSrc: "https://avatars.githubusercontent.com/u/1447119?s=96&v=4",
+    imageAlt: "nidble",
+    href: "https://github.com/nidble",
+  },
+  {
     name: "Somesh Mishra",
     description: "Front-End Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
@@ -288,7 +295,6 @@ const callouts = [
       "https://cdn.discordapp.com/attachments/875062360623185990/896483247318515752/IMG_20210709_184725.jpg",
     imageAlt: "Mital avatar ",
     href: "https://github.com/mitalsapkale01",
-
   },
   {
 		name: "Abhishek Bhagate",
