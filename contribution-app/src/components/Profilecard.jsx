@@ -310,6 +310,14 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
     imageAlt: "Kushal Gandhi",
     href: "https://github.com/kushalgandhi26",
+  },
+  {
+    name: "Apurvan Morey",
+    description:
+      "Learning Everything",
+    imageSrc: "https://avatars.githubusercontent.com/u/24579027?v=4",
+    imageAlt: "Apurvan Morey",
+    href: "https://github.com/apurvanmorey",
   }
 ];
 
@@ -318,12 +326,13 @@ export default function Example() {
   return (
     <div className="bg-gray-100 dark:bg-black">
       {/* <SearchBar contributors={callouts}/> */}
-
-      <div className="mt-3 mx-auto rounded-full bg-red-400 shadow bg-gradient-to-r from-purple-500 w-1/2 md:w-1/3 lg:w-1/4">
+      <div 
+      style={{background: '#DEB887'}}  
+      className="mt-6 mx-auto rounded-full  shadow w-1/2 md:w-1/3 lg:w-1/4">
         <input
           type="search"
-          placeholder="🔍  Search"
-          className="p-3 opacity-60 h-10  text-purple-900  placeholder-pink-900 rounded-full w-full"
+          placeholder=" Search contributors name..."
+          className="p-3 opacity-40 h-22 shadow  text-black  placeholder-black rounded-full w-full md:focus:text-black-600"
           onChange={(e) => {
             setval(e.target.value);
           }}
@@ -331,7 +340,7 @@ export default function Example() {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-          <h2 className="text-2xl font-extrabold text-gray-900 dark:text-gray-100">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Contributors
           </h2>
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">

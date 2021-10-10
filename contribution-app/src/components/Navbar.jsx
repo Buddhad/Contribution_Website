@@ -123,6 +123,14 @@ const Navbar = () => {
 					<a
 						exact
 						activeClassName='active_link'
+						href='/'
+						className='nav-links btn btn-sm rounded-btn dark:bg-black'
+					>
+						HOME
+					</a>
+					<a
+						exact
+						activeClassName='active_link'
 						target='_blank'
 						href='https://hacktoberfest.digitalocean.com/'
 						className='nav-links btn btn-sm rounded-btn dark:bg-black'
