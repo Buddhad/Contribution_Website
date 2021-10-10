@@ -287,7 +287,6 @@ const callouts = [
       "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
     imageAlt: "specxybeardo avatar",
     href: "https://github.com/specxybeardo",
-
   },
   {
     name: "Mital Sapkale",
@@ -296,6 +295,21 @@ const callouts = [
       "https://cdn.discordapp.com/attachments/875062360623185990/896483247318515752/IMG_20210709_184725.jpg",
     imageAlt: "Mital avatar ",
     href: "https://github.com/mitalsapkale01",
+  },
+  {
+		name: "Abhishek Bhagate",
+		description: "Full-Stack Developer",
+		imageSrc: "https://avatars.githubusercontent.com/u/40712852?v=4",
+		imageAlt: "Abhishek avatar",
+		href: "https://github.com/archit11111",
+	},
+  {
+    name: "Kushal Gandhi",
+    description:
+      "Passionate about Web Developement",
+    imageSrc: "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
+    imageAlt: "Kushal Gandhi",
+    href: "https://github.com/kushalgandhi26",
   }
 ];
 
