@@ -297,6 +297,14 @@ const callouts = [
 		imageAlt: "Abhishek avatar",
 		href: "https://github.com/archit11111",
 	},
+  {
+    name: "Kushal Gandhi",
+    description:
+      "Passionate about Web Developement",
+    imageSrc: "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
+    imageAlt: "Kushal Gandhi",
+    href: "https://github.com/kushalgandhi26",
+  }
 ];
 
 export default function Example() {
