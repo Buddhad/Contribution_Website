@@ -329,8 +329,7 @@ const callouts = [
   },
   {
     name: "Joe D'Agostino",
-    description:
-      "Web Developer",
+    description: "Web Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
     imageAlt: "Joe D'Agostino",
     href: "https://github.com/joedag32",
