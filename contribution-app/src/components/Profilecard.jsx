@@ -323,7 +323,7 @@ const callouts = [
     name: "Shaurya Srivastava",
     description:
       "Software Engineer",
-    imageSrc: "https://discord.com/channels/845011238290325514/896871082546573362/896871601956601947",
+    imageSrc: "https://media.discordapp.net/attachments/896871082546573362/896871601650401280/shauryapic.jpg?width=631&height=669",
     imageAlt: "Shaurya Srivastava",
     href: "https://github.com/shauryasrivatava",
   }
