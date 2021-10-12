@@ -336,7 +336,7 @@ const callouts = [
   },
   {
     name: "Ankit Singh",
-    description: "Full Stack Web Developer",
+    description: "Full Stack Web Developer/ Competitive Programmer",
     imageSrc: "https://avatars.githubusercontent.com/u/73019590?s=400&u=b7e2942f71ee239d4382df09cce918eedbb47cc5&v=4",
     imageAlt: "Image",
     href: "https://github.com/codeantik",
