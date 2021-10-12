@@ -333,6 +333,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
     imageAlt: "Joe D'Agostino",
     href: "https://github.com/joedag32",
+  },
+  {
+    name: "Vilgax",
+    description: "CS Engineer",
+    imageSrc: "https://avatars.githubusercontent.com/u/59883021?v=4",
+    imageAlt: "Vilgax",
+    href: "https://github.com/siddharthsg2",
   }
 ];
 
