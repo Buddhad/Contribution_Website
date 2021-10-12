@@ -333,6 +333,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
     imageAlt: "Joe D'Agostino",
     href: "https://github.com/joedag32",
+  },
+  {
+    name: "Ankit Singh",
+    description: "Full Stack Web Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/73019590?s=400&u=b7e2942f71ee239d4382df09cce918eedbb47cc5&v=4",
+    imageAlt: "Image",
+    href: "https://github.com/codeantik",
   }
 ];
 
