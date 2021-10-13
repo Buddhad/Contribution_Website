@@ -340,6 +340,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/59883021?v=4",
     imageAlt: "Vilgax",
     href: "https://github.com/siddharthsg2",
+  },
+  {
+    name: "Krittin Jaruvisut",
+    description: "Front End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/23163165?v=4",
+    imageAlt: "Krittin-58",
+    href: "https://github.com/krittin-58",
   }
 ];
 
