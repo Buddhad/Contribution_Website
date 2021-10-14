@@ -353,7 +353,7 @@ const callouts = [
     name: "Wali ullah",
     description:
       "Front-End Developer",
-    imageSrc: "https://avatars.githubusercontent.com/u/23163165?v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
     imageAlt: "wali",
     href: "https://github.com/wali39",
   },
