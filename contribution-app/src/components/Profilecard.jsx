@@ -142,16 +142,17 @@ const callouts = [
   {
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
-    imageSrc: "https://media-exp1.licdn.com/dms/image/C5603AQEcaXcHmpf_ag/profile-displayphoto-shrink_800_800/0/1615116106879?e=1639008000&v=beta&t=HD2k6rEKVkg0wqQhOIC03SrcmaImp7ChsGdKOA_xNrM",
+    imageSrc:
+      "https://media-exp1.licdn.com/dms/image/C5603AQEcaXcHmpf_ag/profile-displayphoto-shrink_800_800/0/1615116106879?e=1639008000&v=beta&t=HD2k6rEKVkg0wqQhOIC03SrcmaImp7ChsGdKOA_xNrM",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
   {
-    name:"Rohit",
-    description:"Front-End Develpoer",
-    imageSrc:"https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
-    imageAlt:"Rohit",
-    href:"https://github.com/Rohit5152"
+    name: "Rohit",
+    description: "Front-End Develpoer",
+    imageSrc: "https://avatars.githubusercontent.com/u/71249284?s=400&v=4",
+    imageAlt: "Rohit",
+    href: "https://github.com/Rohit5152",
   },
   {
     name: "Pritam",
@@ -160,10 +161,12 @@ const callouts = [
     imageAlt: "Pritam",
     href: "https://github.com/pritambera2000",
   },
-    
-  { name: "Kushagra Arora",
+
+  {
+    name: "Kushagra Arora",
     description: "Android developer | Machine learning enthusiast | DevOps",
-    imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
+    imageSrc:
+      "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
   },
@@ -202,7 +205,14 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/66563078?v=4",
     imageAlt: "Vikramaditya",
     href: "https://github.com/vikramadityasinghs",
-  }
+  },
+  {
+    name: "Sobhan Dash",
+    description: "FullStack Developer || Beginner in Open Source",
+    imageSrc: "https://avatars.githubusercontent.com/u/52308005?v=4",
+    imageAlt: "Sobhan Dash",
+    href: "https://github.com/SobhanDash",
+  },
 ];
 
 export default function Example() {
