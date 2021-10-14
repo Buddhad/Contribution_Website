@@ -348,6 +348,7 @@ const callouts = [
     imageAlt: "Krittin-58",
     href: "https://github.com/krittin-58",
   },
+
  {
     name: "Wali ullah",
     description:
@@ -356,6 +357,14 @@ const callouts = [
     imageAlt: "wali",
     href: "https://github.com/wali39",
   },
+
+  {
+    name: "Subhash Karthik",
+    description: "Web Developer 💻 | Software engineer| Coder👨‍💻",
+    imageSrc: "https://avatars.githubusercontent.com/u/77478622?s=400&u=21b68918bfc57bc122b7c3ffeee2e4c2b87595e3&v=4",
+    imageAlt: "Subhash Karthik",
+    href: "https://github.com/Karthik-59",
+  }
 ];
 
 export default function Example() {
