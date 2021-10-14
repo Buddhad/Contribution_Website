@@ -348,6 +348,16 @@ const callouts = [
     imageAlt: "Krittin-58",
     href: "https://github.com/krittin-58",
   },
+
+ {
+    name: "Wali ullah",
+    description:
+      "Front-End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
+    imageAlt: "wali",
+    href: "https://github.com/wali39",
+  },
+
   {
     name: "Subhash Karthik",
     description: "Web Developer 💻 | Software engineer| Coder👨‍💻",
