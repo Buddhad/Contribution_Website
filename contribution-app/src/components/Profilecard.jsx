@@ -313,16 +313,14 @@ const callouts = [
   },
   {
     name: "Apurvan Morey",
-    description:
-      "Learning Everything",
+    description:"Learning Everything",
     imageSrc: "https://avatars.githubusercontent.com/u/24579027?v=4",
     imageAlt: "Apurvan Morey",
     href: "https://github.com/apurvanmorey",
   },
   {
     name: "Shaurya Srivastava",
-    description:
-      "Software Engineer",
+    description:"Software Engineer",
     imageSrc: "https://media.discordapp.net/attachments/896871082546573362/896871601650401280/shauryapic.jpg?width=631&height=669",
     imageAlt: "Shaurya Srivastava",
     href: "https://github.com/shauryasrivatava",
@@ -348,16 +346,13 @@ const callouts = [
     imageAlt: "Krittin-58",
     href: "https://github.com/krittin-58",
   },
-
  {
     name: "Wali ullah",
-    description:
-      "Front-End Developer",
+    description:"Front-End Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
     imageAlt: "wali",
     href: "https://github.com/wali39",
   },
-
   {
     name: "Subhash Karthik",
     description: "Web Developer 💻 | Software engineer| Coder👨‍💻",
