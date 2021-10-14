@@ -15,7 +15,7 @@
   ```
 */
 import "./Profilecard.css";
-
+import { useState } from "react";
 const callouts = [
   {
     name: "Buddhadeb Chhetri",
@@ -143,7 +143,7 @@ const callouts = [
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
     imageSrc:
-      "https://media-exp1.licdn.com/dms/image/C5603AQEcaXcHmpf_ag/profile-displayphoto-shrink_800_800/0/1615116106879?e=1639008000&v=beta&t=HD2k6rEKVkg0wqQhOIC03SrcmaImp7ChsGdKOA_xNrM",
+      "https://cdn.discordapp.com/attachments/874009467669315655/894640476135755786/1633270287380.png",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
@@ -207,6 +207,166 @@ const callouts = [
     href: "https://github.com/vikramadityasinghs",
   },
   {
+    name: "Vasav Prashar",
+    description: "GITHUB BEGINEER",
+    imageSrc: "https://avatars.githubusercontent.com/u/74191996?v=4",
+    imageAlt: "VASAV",
+    href: "https://github.com/vasav-prashar",
+  },
+  {
+    name: "Piyush Bhangale",
+    description: "Backend Guy ✨",
+    imageSrc: "https://avatars.githubusercontent.com/u/18086566?v=4",
+    imageAlt: "Piyush",
+    href: "https://github.com/officialpiyush",
+  },
+
+  {
+    name: "Vishal Kumar",
+    description:
+      "Software Developer 💻 || Front End enthusiast 🔥 || Photographer 📸 ",
+    imageSrc: "https://avatars.githubusercontent.com/u/22008102?v=4",
+    imageAlt: "Vishal",
+    href: "https://github.com/vishalkr058",
+  },
+  {
+    name: "Mudit Wadhwa",
+    description:
+      "Data Structures And Algorithms(Problem Solver) 🖥️||Web Development enthusiast 🔥",
+    imageSrc: "https://avatars.githubusercontent.com/MuditWadhwa",
+    imageAlt: "Mudit",
+    href: "https://github.com/MuditWadhwa",
+  },
+  {
+    name: "Shubham Mehra",
+    description: "Full Stack Developer | Tech Enthusiast",
+    imageSrc: "https://avatars.githubusercontent.com/u/54092258?v=4",
+    imageAlt: "Shubham",
+    href: "https://github.com/shubhammehra4",
+  },
+  {
+    name: "Patricio Díaz",
+    description: "I'm a Freelance Front-End Developer & Content creator.",
+    imageSrc: "https://avatars.githubusercontent.com/u/30910253?v=4",
+    imageAlt: "Patricio Díaz github avatar",
+    href: "https://github.com/patodm",
+  },
+  {
+    name: "Sadathulla Shariff",
+    description: "Front-End Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/51914072?s=400&u=18f96b6cf1d4b35f938c0409325bdcc4f7d2d677&v=4",
+    imageAlt: "Sadathulla Shariff",
+    href: "https://github.com/sadathshariff",
+  },
+  {
+    name: "Faris Daffa",
+    description: "20% Learn, 80% Practice 🕵️",
+    imageSrc: "https://avatars.githubusercontent.com/u/65797160?v=4",
+    imageAlt: "Faris0520",
+    href: "https://github.com/Faris0520",
+  },
+  {
+    name: "Nidble",
+    description: "Curiosity's Tamer",
+    imageSrc: "https://avatars.githubusercontent.com/u/1447119?s=96&v=4",
+    imageAlt: "nidble",
+    href: "https://github.com/nidble",
+  },
+  {
+    name: "Somesh Mishra",
+    description: "Front-End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
+    imageAlt: "someshium",
+    href: "https://github.com/someshium",
+  },
+  {
+    name: "Samyak Gajbhiye",
+    description: "Ethical Hacker || CTF Player || UI/UX Designer || Programmer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/54959744?s=400&u=3b836f23ef557da3588cae03a748a414f50ef9ea&v=4",
+    imageAlt: "specxybeardo avatar",
+    href: "https://github.com/specxybeardo",
+  },
+  {
+    name: "Mital Sapkale",
+    description: "Frontend Developer  || Programmer",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/875062360623185990/896483247318515752/IMG_20210709_184725.jpg",
+    imageAlt: "Mital avatar ",
+    href: "https://github.com/mitalsapkale01",
+  },
+  {
+    name: "Abhishek Bhagate",
+    description: "Full-Stack Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/40712852?v=4",
+    imageAlt: "Abhishek avatar",
+    href: "https://github.com/archit11111",
+  },
+  {
+    name: "Kushal Gandhi",
+    description: "Passionate about Web Developement",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
+    imageAlt: "Kushal Gandhi",
+    href: "https://github.com/kushalgandhi26",
+  },
+  {
+    name: "Apurvan Morey",
+    description: "Learning Everything",
+    imageSrc: "https://avatars.githubusercontent.com/u/24579027?v=4",
+    imageAlt: "Apurvan Morey",
+    href: "https://github.com/apurvanmorey",
+  },
+  {
+    name: "Shaurya Srivastava",
+    description: "Software Engineer",
+    imageSrc:
+      "https://media.discordapp.net/attachments/896871082546573362/896871601650401280/shauryapic.jpg?width=631&height=669",
+    imageAlt: "Shaurya Srivastava",
+    href: "https://github.com/shauryasrivatava",
+  },
+  {
+    name: "Joe D'Agostino",
+    description: "Web Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
+    imageAlt: "Joe D'Agostino",
+    href: "https://github.com/joedag32",
+  },
+  {
+    name: "Vilgax",
+    description: "CS Engineer",
+    imageSrc: "https://avatars.githubusercontent.com/u/59883021?v=4",
+    imageAlt: "Vilgax",
+    href: "https://github.com/siddharthsg2",
+  },
+  {
+    name: "Krittin Jaruvisut",
+    description: "Front End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/23163165?v=4",
+    imageAlt: "Krittin-58",
+    href: "https://github.com/krittin-58",
+  },
+
+  {
+    name: "Wali ullah",
+    description: "Front-End Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
+    imageAlt: "wali",
+    href: "https://github.com/wali39",
+  },
+
+  {
+    name: "Subhash Karthik",
+    description: "Web Developer 💻 | Software engineer| Coder👨‍💻",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/77478622?s=400&u=21b68918bfc57bc122b7c3ffeee2e4c2b87595e3&v=4",
+    imageAlt: "Subhash Karthik",
+    href: "https://github.com/Karthik-59",
+  },
+  {
     name: "Sobhan Dash",
     description: "FullStack Developer || Beginner in Open Source",
     imageSrc: "https://avatars.githubusercontent.com/u/52308005?v=4",
@@ -216,39 +376,54 @@ const callouts = [
 ];
 
 export default function Example() {
+  const [val, setval] = useState("");
   return (
     <div className="bg-gray-100 dark:bg-black">
+      {/* <SearchBar contributors={callouts}/> */}
+      <div 
+      style={{background: '#DEB887'}}  
+      className="mt-6 mx-auto rounded-full  shadow w-1/2 md:w-1/3 lg:w-1/4">
+        <input
+          type="search"
+          placeholder=" Search contributors name..."
+          className="p-3 opacity-40 h-22 shadow  text-black  placeholder-black rounded-full w-full md:focus:text-black-600"
+          onChange={(e) => {
+            setval(e.target.value);
+          }}
+        />
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-          <h2 className="text-2xl font-extrabold text-gray-900 dark:text-gray-100">
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
             Contributors
           </h2>
-
           <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 ">
-            {callouts.map((callout) => (
-              <div
-                key={callout.name}
-                className="group relative py-6 profile-card text-center"
-              >
-                <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
-                  <img
-                    style={{ objectFit: "contain" }}
-                    src={callout.imageSrc}
-                    alt={callout.imageAlt}
-                    className="w-full h-full object-center object-cover"
-                  />
+            {callouts.map((callout) =>
+              callout.name.toLowerCase().includes(val.toLowerCase()) ? (
+                <div
+                  key={callout.name}
+                  className="group relative py-6 profile-card text-center"
+                >
+                  <div className="relative w-48 h-48 overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1 lg:aspect-h-1 ">
+                    <img
+                      style={{ objectFit: "contain" }}
+                      src={callout.imageSrc}
+                      alt={callout.imageAlt}
+                      className="w-full h-full object-center object-cover"
+                    />
+                  </div>
+                  <h3 className="contributor-name mt-6 text-sm text-gray-500 dark:text-gray-100">
+                    <div className="contributor">{callout.name}</div>
+                  </h3>
+                  <a href={callout.href} target="_blank" rel="noreferrer">
+                    <span className="absolute inset-0" />
+                  </a>
+                  <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
+                    {callout.description}
+                  </p>
                 </div>
-                <h3 className="contributor-name mt-6 text-sm text-gray-500 dark:text-gray-100">
-                  <div className="contributor">{callout.name}</div>
-                </h3>
-                <a href={callout.href} target="_blank" rel="noreferrer">
-                  <span className="absolute inset-0" />
-                </a>
-                <p className="text-base font-semibold text-gray-900 dark:text-gray-500">
-                  {callout.description}
-                </p>
-              </div>
-            ))}
+              ) : null
+            )}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 function About() {
-    return <section style={{minHeight: "95vh"}}
+    return <section  style={{minHeight: "95vh",background: '#DEB887'}}
     >
         <div className="container px-5 mx-auto flex flex-wrap">
             <br/>
