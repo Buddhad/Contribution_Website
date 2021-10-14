@@ -26,14 +26,6 @@ const callouts = [
     href: "https://github.com/Buddhad",
   },
   {
-    name: "Wali ullah",
-    description:
-      "Front-End Developer",
-    imageSrc: "https://res.cloudinary.com/plutonic39/image/upload/v1634129062/github-readmen/avatar_ljptkr.png",
-    imageAlt: "wali",
-    href: "https://github.com/wali39",
-  },
-  {
     name: "Viren Shewaramani",
     description:
       "Frontend Developer || Competitive Programmer || DSA Enthusiast || Java Fullstack",
@@ -355,7 +347,15 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/23163165?v=4",
     imageAlt: "Krittin-58",
     href: "https://github.com/krittin-58",
-  }
+  },
+ {
+    name: "Wali ullah",
+    description:
+      "Front-End Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/23163165?v=4",
+    imageAlt: "wali",
+    href: "https://github.com/wali39",
+  },
 ];
 
 export default function Example() {
