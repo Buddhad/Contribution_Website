@@ -278,7 +278,7 @@ const callouts = [
     description: "Front-End Developer",
     imageSrc: "https://avatars.githubusercontent.com/u/41496294?v=4",
     imageAlt: "someshium",
-    href: "https://github.com/someshium"
+    href: "https://github.com/someshium",
   },
   {
     name: "Samyak Gajbhiye",
@@ -297,38 +297,40 @@ const callouts = [
     href: "https://github.com/mitalsapkale01",
   },
   {
-		name: "Abhishek Bhagate",
-		description: "Full-Stack Developer",
-		imageSrc: "https://avatars.githubusercontent.com/u/40712852?v=4",
-		imageAlt: "Abhishek avatar",
-		href: "https://github.com/archit11111",
-	},
+    name: "Abhishek Bhagate",
+    description: "Full-Stack Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/40712852?v=4",
+    imageAlt: "Abhishek avatar",
+    href: "https://github.com/archit11111",
+  },
   {
     name: "Kushal Gandhi",
-    description:
-      "Passionate about Web Developement",
-    imageSrc: "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
+    description: "Passionate about Web Developement",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/63503991?s=400&u=c6b106ec0e3e2d5d4bc968d8f8a024fbe8314f5e&v=4",
     imageAlt: "Kushal Gandhi",
     href: "https://github.com/kushalgandhi26",
   },
   {
     name: "Apurvan Morey",
-    description:"Learning Everything",
+    description: "Learning Everything",
     imageSrc: "https://avatars.githubusercontent.com/u/24579027?v=4",
     imageAlt: "Apurvan Morey",
     href: "https://github.com/apurvanmorey",
   },
   {
     name: "Shaurya Srivastava",
-    description:"Software Engineer",
-    imageSrc: "https://media.discordapp.net/attachments/896871082546573362/896871601650401280/shauryapic.jpg?width=631&height=669",
+    description: "Software Engineer",
+    imageSrc:
+      "https://media.discordapp.net/attachments/896871082546573362/896871601650401280/shauryapic.jpg?width=631&height=669",
     imageAlt: "Shaurya Srivastava",
     href: "https://github.com/shauryasrivatava",
   },
   {
     name: "Joe D'Agostino",
     description: "Web Developer",
-    imageSrc: "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/393691?s=400&u=bbd3e9078badbd855df4a8b8e165156c51583dd9&v=4",
     imageAlt: "Joe D'Agostino",
     href: "https://github.com/joedag32",
   },
@@ -346,20 +348,29 @@ const callouts = [
     imageAlt: "Krittin-58",
     href: "https://github.com/krittin-58",
   },
- {
+  {
     name: "Wali ullah",
-    description:"Front-End Developer",
-    imageSrc: "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
+    description: "Front-End Developer",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/57776479?s=400&u=fc93395cc6f39cf66d9da90ea56db0443d3efa52&v=4",
     imageAlt: "wali",
     href: "https://github.com/wali39",
   },
   {
     name: "Subhash Karthik",
     description: "Web Developer 💻 | Software engineer| Coder👨‍💻",
-    imageSrc: "https://avatars.githubusercontent.com/u/77478622?s=400&u=21b68918bfc57bc122b7c3ffeee2e4c2b87595e3&v=4",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/77478622?s=400&u=21b68918bfc57bc122b7c3ffeee2e4c2b87595e3&v=4",
     imageAlt: "Subhash Karthik",
     href: "https://github.com/Karthik-59",
-  }
+  },
+  {
+    name: "Sobhan Dash",
+    description: "FullStack Developer || Beginner in Open Source",
+    imageSrc: "https://avatars.githubusercontent.com/u/52308005?v=4",
+    imageAlt: "Sobhan Dash",
+    href: "https://github.com/SobhanDash",
+  },
 ];
 
 export default function Example() {
@@ -367,9 +378,10 @@ export default function Example() {
   return (
     <div className="bg-gray-100 dark:bg-black">
       {/* <SearchBar contributors={callouts}/> */}
-      <div 
-      style={{background: '#DEB887'}}  
-      className="mt-6 mx-auto rounded-full  shadow w-1/2 md:w-1/3 lg:w-1/4">
+      <div
+        style={{ background: "#DEB887" }}
+        className="mt-6 mx-auto rounded-full  shadow w-1/2 md:w-1/3 lg:w-1/4"
+      >
         <input
           type="search"
           placeholder=" Search contributors name..."
