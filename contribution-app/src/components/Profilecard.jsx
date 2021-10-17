@@ -384,6 +384,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/Dipesh123-ux",
     imageAlt: "Dip123",
     href: "https://github.com/Dipesh123-ux",
+  },
+  {
+    name: "IndominouS",
+    description: "ReactJs developer || Python",
+    imageSrc: "https://avatars.githubusercontent.com/u/72083921?v=4",
+    imageAlt: "Uv123",
+    href: "https://github.com/NOOBUV",
   }
 ];
 
