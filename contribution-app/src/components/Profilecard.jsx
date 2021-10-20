@@ -388,10 +388,18 @@ const callouts = [
   {
     name: "IndominouS",
     description: "ReactJs developer || Python",
-    imageSrc: "https://media-exp1.licdn.com/dms/image/C5603AQFNT1J2uuzMYw/profile-displayphoto-shrink_100_100/0/1614143391669?e=1640217600&v=beta&t=EpIK55H8Qnf9gZth6aOU5jTex9nkopJvL0rhT-HhjFs",
+    imageSrc:
+      "https://media-exp1.licdn.com/dms/image/C5603AQFNT1J2uuzMYw/profile-displayphoto-shrink_100_100/0/1614143391669?e=1640217600&v=beta&t=EpIK55H8Qnf9gZth6aOU5jTex9nkopJvL0rhT-HhjFs",
     imageAlt: "Uv123",
     href: "https://github.com/NOOBUV",
-  }
+  },
+  {
+    name: "Athul Tulasidasan",
+    description: "Fullstack Developer 💻 | | Open Source |",
+    imageSrc: "https://avatars.githubusercontent.com/Athul0491",
+    imageAlt: "Athul Tulasidasan",
+    href: "https://github.com/Athul0491",
+  },
 ];
 
 export default function Example() {
