@@ -400,6 +400,13 @@ const callouts = [
     imageAlt: "Athul Tulasidasan",
     href: "https://github.com/Athul0491",
   },
+  {
+    name: "Aritro Sinha",
+    description: "Front-end Developer 💻 | Game Developer 🎮 | Coder 👨‍💻",
+    imageSrc: "https://avatars.githubusercontent.com/sinhaaritro",
+    imageAlt: "Aritro Sinha",
+    href: "https://github.com/sinhaaritro",
+  },
 ];
 
 export default function Example() {
