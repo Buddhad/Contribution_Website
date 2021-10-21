@@ -1,8 +1,8 @@
 /*
-  This example requires Tailwind CSS v2.0+ 
-  
+  This example requires Tailwind CSS v2.0+
+
   This example requires some changes to your config:
-  
+
   ```
   // tailwind.config.js
   module.exports = {
@@ -391,6 +391,13 @@ const callouts = [
     imageSrc: "https://media-exp1.licdn.com/dms/image/C5603AQFNT1J2uuzMYw/profile-displayphoto-shrink_100_100/0/1614143391669?e=1640217600&v=beta&t=EpIK55H8Qnf9gZth6aOU5jTex9nkopJvL0rhT-HhjFs",
     imageAlt: "Uv123",
     href: "https://github.com/NOOBUV",
+  },
+  {
+    name: "Ayushi Kosta",
+    description: "ReactJs developer || C++",
+    imageSrc: "https://avatars.githubusercontent.com/Ayushi-Kosta",
+    imageAlt: "Ayushi",
+    href: "https://github.com/Ayushi-Kosta",
   }
 ];
 
