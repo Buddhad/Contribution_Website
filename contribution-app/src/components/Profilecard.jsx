@@ -408,6 +408,13 @@ const callouts = [
     imageAlt: "PratyushKumar",
     href: "https://github.com/kpratyush12345",
   },
+  { 
+    name: "Aritro Sinha", 
+    description: "Front-end Developer ", 
+    imageSrc: "https://avatars.githubusercontent.com/sinhaaritro", 
+    imageAlt: "Aritro Sinha", 
+    href: "https://github.com/sinhaaritro", 
+  }
 ];
 
 export default function Example() {
