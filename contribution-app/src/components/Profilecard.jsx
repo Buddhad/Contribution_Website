@@ -400,6 +400,14 @@ const callouts = [
     imageAlt: "Athul Tulasidasan",
     href: "https://github.com/Athul0491",
   },
+  {
+    name: "Pratyush Kumar",
+    description: "Web Developer || Data Structures",
+    imageSrc:
+      "https://media-exp1.licdn.com/dms/image/C5603AQGWaweHoXwsJQ/profile-displayphoto-shrink_800_800/0/1610298299507?e=1640217600&v=beta&t=rB2HtWFKzOXw4qkNRdyw4ksypYGSSFfWo-T6vp8spmk",
+    imageAlt: "PratyushKumar",
+    href: "https://github.com/kpratyush12345",
+  },
 ];
 
 export default function Example() {
