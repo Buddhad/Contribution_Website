@@ -292,7 +292,7 @@ const callouts = [
     name: "Mital Sapkale",
     description: "Frontend Developer  || Programmer",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/875062360623185990/896483247318515752/IMG_20210709_184725.jpg",
+      "https://cdn.discordapp.com/attachments/875062360623185990/900761408818524191/IMG_20210709_184725.jpg",
     imageAlt: "Mital avatar ",
     href: "https://github.com/mitalsapkale01",
   },
