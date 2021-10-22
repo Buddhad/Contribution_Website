@@ -62,7 +62,7 @@ const callouts = [
     name: "Ridhima Aggrawal",
     description: "Full Stack Developer",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/888474298895958026/893895127951626250/Picture.jpg",
+      "https://www.linkedin.com/in/ridhima-aggarwal-3aa761207/detail/photo/",
     imageAlt: "Ridz",
     href: "https://github.com/ridz0326",
   },
@@ -421,7 +421,7 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/Ayushi-Kosta",
     imageAlt: "Ayushi",
     href: "https://github.com/Ayushi-Kosta",
-  }
+  },
 ];
 
 export default function Example() {
