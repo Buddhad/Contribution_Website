@@ -422,6 +422,13 @@ const callouts = [
     imageAlt: "Ayushi",
     href: "https://github.com/Ayushi-Kosta",
   },
+  {
+    name: "Shivam Kumar Singh",
+    description: "Competitive programmer || Developer",
+    imageSrc: "https://avatars.githubusercontent.com/sksinghl498",
+    imageAlt: "Shivam",
+    href: "https://github.com/sksinghl498",
+  },
 ];
 
 export default function Example() {
