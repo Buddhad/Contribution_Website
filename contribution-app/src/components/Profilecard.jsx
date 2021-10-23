@@ -422,6 +422,13 @@ const callouts = [
     imageAlt: "Ayushi",
     href: "https://github.com/Ayushi-Kosta",
   },
+  {
+    name: "Fajar Saputro Juliantoro",
+    description: "Software Engineer at Quipper",
+    imageSrc: "https://avatars.githubusercontent.com/fajarsj",
+    imageAlt: "fajarsj",
+    href: "https://github.com/fajarsj",
+  },
 ];
 
 export default function Example() {
