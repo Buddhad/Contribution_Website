@@ -18,12 +18,12 @@ import "./Profilecard.css";
 import { useState } from "react";
 const callouts = [
   {
-    name: "Buddhadeb Chhetri",
+    name: "Samiya Nisar",
     description:
-      "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coder👨‍💻",
-    imageSrc: "https://avatars.githubusercontent.com/u/71445997?v=4",
-    imageAlt: "Buddhadeb Chhetri",
-    href: "https://github.com/Buddhad",
+      "Web-developer💻 || Data Structures Enthusiast || Coder👨‍💻",
+    imageSrc: "https://www.linkedin.com/in/samiya-nisar-896890202",
+    imageAlt: "Samiya Nisar",
+    href: "https://github.com/Samiya-Nisar",
   },
   {
     name: "Viren Shewaramani",
