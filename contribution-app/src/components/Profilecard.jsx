@@ -18,6 +18,13 @@ import "./Profilecard.css";
 import { useState } from "react";
 const callouts = [
   {
+    name: "Sagar Sedai",
+    description: "C.T.O at SINARJA MARKETING | FullStack Developer | Computer Engineer ",
+    imageSrc: "https://media-exp1.licdn.com/dms/image/C5603AQFnidUhNO1rZA/profile-displayphoto-shrink_400_400/0/1615993533429?e=1640822400&v=beta&t=VI57WLkuvpXS3beXtg9nkhucYQN7ABLGCdjxUsv6D2U",
+    imageAlt: "Sagar Sedai",
+    href: "https://github.com/Sagarsedai/",
+  },
+  {
     name: "Buddhadeb Chhetri",
     description:
       "Front-end Developer 💻 | |📱Android Developer|🎮 Game Developer |Blogger ✍️| Poster Designer📜| Coder👨‍💻",
