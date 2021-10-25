@@ -423,11 +423,11 @@ const callouts = [
     href: "https://github.com/Ayushi-Kosta",
   },
   {
-    name: "Fajar Saputro Juliantoro",
-    description: "Software Engineer at Quipper",
-    imageSrc: "https://avatars.githubusercontent.com/fajarsj",
-    imageAlt: "fajarsj",
-    href: "https://github.com/fajarsj",
+    name: "Shivam Kumar Singh",
+    description: "Competitive programmer || Developer",
+    imageSrc: "https://avatars.githubusercontent.com/sksinghl498",
+    imageAlt: "Shivam",
+    href: "https://github.com/sksinghl498",
   },
 ];
 
