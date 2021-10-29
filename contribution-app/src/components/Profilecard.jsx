@@ -429,6 +429,13 @@ const callouts = [
     imageAlt: "Shivam",
     href: "https://github.com/sksinghl498",
   },
+   {
+    name: "Raman Kumar",
+    description: "Competitive programmer || Developer",
+    imageSrc: "https://media-exp1.licdn.com/dms/image/C4D03AQExtWxOtoJijg/profile-displayphoto-shrink_400_400/0/1613388843062?e=1640822400&v=beta&t=I0VxAkZumLFFDWGuLHODWltFB69Oyc9IC7QQ5DMzgQM",
+    imageAlt: "Raman",
+    href: "https://github.com/rmn5124",
+  },
 ];
 
 export default function Example() {
