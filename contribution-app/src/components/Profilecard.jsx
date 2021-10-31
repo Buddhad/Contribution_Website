@@ -436,6 +436,13 @@ const callouts = [
     imageAlt: "Raman",
     href: "https://github.com/rmn5124",
   },
+  {
+    name: "Kritika Parmar",
+    description: "Machine Learning Enthu || Data Science",
+    imageSrc: "https://avatars.githubusercontent.com/u/59971890?v=4",
+    imageAlt: "Kritika",
+    href: "https://github.com/kritikaparmar-programmer",
+  },
 ];
 
 export default function Example() {
