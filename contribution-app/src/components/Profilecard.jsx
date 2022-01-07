@@ -62,14 +62,14 @@ const callouts = [
     name: "Ridhima Aggrawal",
     description: "Full Stack Developer",
     imageSrc:
-      "https://www.linkedin.com/in/ridhima-aggarwal-3aa761207/detail/photo/",
+      "https://cdn.discordapp.com/attachments/926055068271251467/928895250955653130/Female01_profile.png",
     imageAlt: "Ridz",
     href: "https://github.com/ridz0326",
   },
   {
     name: "Dhruv",
     description: "Sharing tools, Tips and Self taught Knowledge",
-    imageSrc: "https://avatars.githubusercontent.com/u/49398471?v=4",
+    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "acedesyne",
     href: "https://github.com/acedesyne",
   },
@@ -143,7 +143,7 @@ const callouts = [
     name: "Samyak Jain",
     description: "Full Stack Web dev | Beginner in Open Source",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/874009467669315655/894640476135755786/1633270287380.png",
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Samyak Jain",
     href: "https://github.com/SamyakJain2020",
   },
@@ -166,7 +166,7 @@ const callouts = [
     name: "Kushagra Arora",
     description: "Android developer | Machine learning enthusiast | DevOps",
     imageSrc:
-      "https://media-exp1.licdn.com/dms/image/C5103AQF9MHNxASoCZA/profile-displayphoto-shrink_400_400/0/1580136101825?e=1639008000&v=beta&t=RH7L2iIZatkPxjVY52hktcTQmvrm1rv9ndXOjSkhz7M",
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Kushagra Arora",
     href: "https://github.com/kastrahl",
   },
@@ -299,7 +299,7 @@ const callouts = [
   {
     name: "Abhishek Bhagate",
     description: "Full-Stack Developer",
-    imageSrc: "https://avatars.githubusercontent.com/u/40712852?v=4",
+    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Abhishek avatar",
     href: "https://github.com/archit11111",
   },
@@ -386,10 +386,10 @@ const callouts = [
     href: "https://github.com/Dipesh123-ux",
   },
   {
-    name: "IndominouS",
+    name: "Utkarsh Vijay",
     description: "ReactJs developer || Python",
     imageSrc:
-      "https://media-exp1.licdn.com/dms/image/C5603AQFNT1J2uuzMYw/profile-displayphoto-shrink_100_100/0/1614143391669?e=1640217600&v=beta&t=EpIK55H8Qnf9gZth6aOU5jTex9nkopJvL0rhT-HhjFs",
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Uv123",
     href: "https://github.com/NOOBUV",
   },
@@ -404,7 +404,7 @@ const callouts = [
     name: "Pratyush Kumar",
     description: "Web Developer || Data Structures",
     imageSrc:
-      "https://media-exp1.licdn.com/dms/image/C5603AQGWaweHoXwsJQ/profile-displayphoto-shrink_800_800/0/1610298299507?e=1640217600&v=beta&t=rB2HtWFKzOXw4qkNRdyw4ksypYGSSFfWo-T6vp8spmk",
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "PratyushKumar",
     href: "https://github.com/kpratyush12345",
   },
@@ -432,7 +432,7 @@ const callouts = [
    {
     name: "Raman Kumar",
     description: "Competitive programmer || Developer",
-    imageSrc: "https://media-exp1.licdn.com/dms/image/C4D03AQExtWxOtoJijg/profile-displayphoto-shrink_400_400/0/1613388843062?e=1640822400&v=beta&t=I0VxAkZumLFFDWGuLHODWltFB69Oyc9IC7QQ5DMzgQM",
+    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Raman",
     href: "https://github.com/rmn5124",
   },
