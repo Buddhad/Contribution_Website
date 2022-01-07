@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../components/logo.svg";
 import Profilecard from "./Profilecard";
-import "../components/Content.css";
 
 const Content = () => {
   return (
