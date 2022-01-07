@@ -1,55 +1,56 @@
-.search_bar{
-    /* height: 50px;
+.search_bar {
+  /* height: 50px;
      */
-     margin-left: 2%;
-     /* width: 30vw; */
-     height: 4em;
+  margin-left: 2%;
+  /* width: 30vw; */
+  height: 4em;
 }
-.hamburger{
-    display: none;
+.hamburger {
+  display: none;
 }
-.close{
-    display: none;
+.close {
+  display: none;
 }
 
-.nav-links{
-    position: relative;
-    margin: 0 1em;
+.nav-links {
+  position: relative;
+  margin: 0 1em;
 }
 .btn {
-    border-color: transparent;
+  border-color: transparent;
 }
-.btn:hover{
-    background: none;
-    border-color: transparent;
+.btn:hover {
+  background: none;
+  border-color: transparent;
 }
-.nav-links::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background-color: currentColor;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in;
+.nav-links::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in;
 }
-.nav-links:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+.nav-links:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
-.navbar{
-    z-index: 100;
-    position: fixed;
-    width: 100%;
+.navbar {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
 }
-@media screen and (min-width:200px) and (max-width:1025px) {
-    .hamburger{
-        display: block;
-    }  
-    .close{
-        display: block;
-        stroke-width: 5px;
-    }
+
+@media screen and (min-width: 200px) and (max-width: 1025px) {
+  .hamburger {
+    display: block;
+  }
+  .close {
+    display: block;
+    stroke-width: 5px;
+  }
 }

@@ -15,6 +15,7 @@
   ```
 */
 import "./Profilecard.css";
+// import FP1 from "../components/Images/FP1.png";
 import { useState } from "react";
 const callouts = [
   {
@@ -69,7 +70,8 @@ const callouts = [
   {
     name: "Dhruv",
     description: "Sharing tools, Tips and Self taught Knowledge",
-    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "acedesyne",
     href: "https://github.com/acedesyne",
   },
@@ -299,7 +301,8 @@ const callouts = [
   {
     name: "Abhishek Bhagate",
     description: "Full-Stack Developer",
-    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Abhishek avatar",
     href: "https://github.com/archit11111",
   },
@@ -429,10 +432,11 @@ const callouts = [
     imageAlt: "Shivam",
     href: "https://github.com/sksinghl498",
   },
-   {
+  {
     name: "Raman Kumar",
     description: "Competitive programmer || Developer",
-    imageSrc: "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/926055068271251467/928894752752009236/Male_profile.png",
     imageAlt: "Raman",
     href: "https://github.com/rmn5124",
   },
