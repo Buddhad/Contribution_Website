@@ -47,6 +47,7 @@
     "nth-check": ">=2.0.1",
     "immer": ">=9.0.6",
     "postcss": "^8.2.13",
+    "nanoid": ">=3.1.31",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
   }
 }
