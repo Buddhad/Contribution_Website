@@ -18,6 +18,7 @@ import "./Profilecard.css";
 // import FP1 from "../components/Images/FP1.png";
 import { useState } from "react";
 const callouts = [
+  
   {
     name: "Buddhadeb Chhetri",
     description:
@@ -446,6 +447,13 @@ const callouts = [
     imageSrc: "https://avatars.githubusercontent.com/u/59971890?v=4",
     imageAlt: "Kritika",
     href: "https://github.com/kritikaparmar-programmer",
+  },
+  {
+    name: "Sumit singh Ghuraiya",
+    description: "Competitive Programmer|| Web Developer",
+    imageSrc: "https://avatars.githubusercontent.com/u/80835908?v=4",
+    imageAlt: "Sumit",
+    href: "https://github.com/sumitsinghghuraiya",
   },
 ];
 
