@@ -16,7 +16,7 @@ Contribution Website for all the Hackoberfest21 Participant
 </div>
 
 <div align="center">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacktoberfest21">
+  <img src="https://hacktober-contribution.vercel.app/static/media/logo.f42e3b1f.svg" alt="hacktoberfest21">
 </div>
 
 <br>
